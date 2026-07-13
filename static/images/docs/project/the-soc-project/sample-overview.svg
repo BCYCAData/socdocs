@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="640" viewBox="0 0 1200 640" role="img" aria-label="SOC docs sample image">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#f6e8c4"/>
+      <stop offset="100%" stop-color="#e5edf9"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="640" fill="url(#g)"/>
+  <rect x="120" y="120" width="960" height="400" rx="24" fill="#ffffff" opacity="0.9"/>
+  <text x="160" y="240" fill="#34495e" font-family="Open Sans, sans-serif" font-size="54">SOC Documentation</text>
+  <text x="160" y="310" fill="#5d6d7e" font-family="Open Sans, sans-serif" font-size="32">Sample image pipeline check</text>
+</svg>

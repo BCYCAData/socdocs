@@ -1,0 +1,88 @@
+@import 'tailwindcss';
+@plugin '@tailwindcss/typography';
+
+@import '@fontsource/open-sans';
+@import '@fontsource/poppins';
+@import '@fontsource/raleway';
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+	--font-sans: 'Open Sans', sans-serif;
+	--font-heading: 'Raleway', sans-serif;
+	--font-accent: 'Poppins', sans-serif;
+
+	--color-primary-50: oklch(92.97% 0.04 351.22deg);
+	--color-primary-100: oklch(87.13% 0.06 359.77deg);
+	--color-primary-300: oklch(75.75% 0.11 8.33deg);
+	--color-primary-500: oklch(65.66% 0.16 14.08deg);
+	--color-primary-700: oklch(51.79% 0.15 15.79deg);
+
+	--color-secondary-100: oklch(96.19% 0.058 95.6deg);
+	--color-secondary-300: oklch(87.9% 0.153 91.6deg);
+	--color-secondary-700: oklch(55.53% 0.146 49deg);
+
+	--color-tertiary-100: oklch(91.05% 0.05 230.21deg);
+	--color-tertiary-300: oklch(78.8% 0.11 229.73deg);
+	--color-tertiary-700: oklch(59.52% 0.13 237.96deg);
+
+	--color-surface-50: oklch(98.5% 0.002 247.84deg);
+	--color-surface-100: oklch(96.7% 0.003 264.54deg);
+	--color-surface-200: oklch(92.8% 0.006 264.53deg);
+	--color-surface-700: oklch(37.3% 0.034 259.73deg);
+	--color-surface-800: oklch(27.8% 0.033 256.85deg);
+	--color-surface-950: oklch(13% 0.028 261.69deg);
+}
+
+html,
+body {
+	min-height: 100%;
+}
+
+body {
+	font-family: var(--font-sans);
+	background: radial-gradient(circle at top right, var(--color-secondary-100), var(--color-surface-50) 42%);
+	color: var(--color-surface-950);
+}
+
+.dark body {
+	background: radial-gradient(circle at top right, var(--color-surface-800), var(--color-surface-950) 42%);
+	color: var(--color-surface-50);
+}
+
+h1,
+h2,
+h3,
+h4 {
+	font-family: var(--font-heading);
+}
+
+a {
+	color: var(--color-tertiary-700);
+}
+
+.dark a {
+	color: var(--color-tertiary-300);
+}
+
+.prose {
+	--tw-prose-headings: var(--color-surface-950);
+	--tw-prose-links: var(--color-tertiary-700);
+	--tw-prose-bold: var(--color-surface-950);
+	--tw-prose-invert-headings: var(--color-surface-50);
+	--tw-prose-invert-links: var(--color-tertiary-300);
+	--tw-prose-invert-bold: var(--color-surface-50);
+}
+
+.prose img {
+	border: 1px solid var(--color-surface-200);
+	border-radius: 0.75rem;
+}
+
+.dark .prose img {
+	border-color: var(--color-surface-700);
+}
+
+code {
+	font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
+}

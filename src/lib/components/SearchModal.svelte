@@ -19,7 +19,6 @@
 		if (searchFn || !open) return;
 		try {
 			const pagefindPath = '/pagefind/pagefind.js';
-			// @ts-expect-error pagefind module is generated only after production build.
 			const pagefind = await import(/* @vite-ignore */ pagefindPath);
 			searchFn = pagefind.search;
 		} catch {

@@ -25,4 +25,4 @@
 	</section>
 </main>
 
-<SearchModal open={searchOpen} onClose={() => (searchOpen = false)} />
+<SearchModal open={searchOpen} onOpen={() => (searchOpen = true)} onClose={() => (searchOpen = false)} />

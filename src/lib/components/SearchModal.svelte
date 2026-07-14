@@ -7,13 +7,18 @@
 		meta?: Record<string, string>;
 	};
 
-	let { open, onClose } = $props<{ open: boolean; onClose: () => void }>();
+	type PagefindResult = {
+		data: () => Promise<Result>;
+	};
+
+	let { open, onOpen, onClose } = $props<{ open: boolean; onOpen: () => void; onClose: () => void }>();
 
 	let query = $state('');
 	let results = $state<Result[]>([]);
 	let loading = $state(false);
 	let errorMessage = $state('');
-	let searchFn: ((term: string) => Promise<{ results: Result[] }>) | undefined;
+	let searchId = 0;
+	let searchFn: ((term: string) => Promise<{ results: PagefindResult[] }>) | undefined;
 
 	async function ensureSearch() {
 		if (searchFn || !open) return;
@@ -34,9 +39,12 @@
 		await ensureSearch();
 		if (!searchFn) return;
 
+		const id = ++searchId;
 		loading = true;
 		const searchResult = await searchFn(query.trim());
-		results = searchResult.results.slice(0, 12);
+		const loaded = await Promise.all(searchResult.results.slice(0, 12).map((item) => item.data()));
+		if (id !== searchId) return;
+		results = loaded;
 		loading = false;
 	}
 
@@ -54,7 +62,11 @@
 		const onKeyDown = (event: KeyboardEvent) => {
 			if ((event.metaKey || event.ctrlKey) && event.key.toLowerCase() === 'k') {
 				event.preventDefault();
-				if (open) onClose();
+				if (open) {
+					onClose();
+				} else {
+					onOpen();
+				}
 			}
 			if (event.key === 'Escape' && open) {
 				onClose();

@@ -34,8 +34,6 @@ Use this timeline as the canonical public milestone log for the project.
 
 Add only verified dates, grant references, and outcomes in this page. Keep historical entries concise and source-backed.
 
-![SOC documentation sample image](/images/docs/project/the-soc-project/sample-overview.svg)
-
 ## Related pages
 
 - Grant 2021: /docs/project/the-soc-project/grant-2021

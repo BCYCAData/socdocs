@@ -85,10 +85,7 @@ function collectText(node: any): string {
 export async function renderMarkdown(markdown: string): Promise<{
 	html: string;
 	toc: TocEntry[];
-	hasMermaid: boolean;
 }> {
-	const hasMermaid = /```\\s*mermaid[\\s\\S]*?```/m.test(markdown);
-
 	const file = await unified()
 		.use(remarkParse)
 		.use(remarkGfm)
@@ -105,7 +102,6 @@ export async function renderMarkdown(markdown: string): Promise<{
 
 	return {
 		html: String(file),
-		toc: (file.data.toc as TocEntry[] | undefined) ?? [],
-		hasMermaid
+		toc: (file.data.toc as TocEntry[] | undefined) ?? []
 	};
 }

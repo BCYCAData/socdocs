@@ -24,7 +24,6 @@ export type DocPage = {
 	body: string;
 	html?: string;
 	toc?: TocEntry[];
-	hasMermaid?: boolean;
 	prev?: DocLink;
 	next?: DocLink;
 };

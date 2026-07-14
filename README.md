@@ -52,6 +52,9 @@ Number prefixes are used for nav order and stripped from the URL.
 - `content/docs/user/10-getting-started/10-create-your-account.md`
 - renders at `/docs/user/getting-started/create-your-account`
 
+Number in steps of 10 (`10-`, `20-`, `30-`, ...) so new pages can be inserted between existing
+ones without renumbering the whole section.
+
 ### Required frontmatter
 
 ```yaml
@@ -80,6 +83,14 @@ Reference with absolute paths in markdown:
 ```md
 ![SOC screenshot](/images/docs/user/getting-started/example.webp)
 ```
+
+Screenshot guidance: capture at 2x device pixel ratio, export as webp, and keep the longest
+edge at or under 1600px.
+
+### Internal links
+
+Write internal links as absolute paths (`/docs/user/getting-started/create-your-account`).
+`npm run check:links` verifies every internal href and src against the build output.
 
 ## Search
 

@@ -20,9 +20,8 @@ type RawDoc = {
 type ContentCache = {
 	pagesByUrl: Map<string, DocPage>;
 	navByGuide: Map<GuideSlug, GuideNav>;
-	guideLandingByGuide: Map<GuideSlug, DocPage>;
 	sectionLandingByUrl: Map<string, DocPage>;
-	orderedDocs: DocPage[];
+	orderedDocsByGuide: Map<GuideSlug, DocPage[]>;
 	allPaths: string[];
 };
 
@@ -148,7 +147,6 @@ async function buildCache(): Promise<ContentCache> {
 	const rawDocs = loadRawDocs();
 	const pagesByUrl = new Map<string, DocPage>();
 	const sectionLandingByUrl = new Map<string, DocPage>();
-	const guideLandingByGuide = new Map<GuideSlug, DocPage>();
 
 	for (const rawDoc of rawDocs) {
 		const rendered = await renderMarkdown(rawDoc.body);
@@ -161,13 +159,12 @@ async function buildCache(): Promise<ContentCache> {
 			sourcePath: rawDoc.relativePath,
 			body: rawDoc.body,
 			html: rendered.html,
-			toc: rendered.toc,
-			hasMermaid: rendered.hasMermaid
+			toc: rendered.toc
 		});
 	}
 
 	const navByGuide = new Map<GuideSlug, GuideNav>();
-	const orderedDocs: DocPage[] = [];
+	const orderedDocsByGuide = new Map<GuideSlug, DocPage[]>();
 	const allPaths: string[] = [];
 
 	for (const guide of guides) {
@@ -217,7 +214,6 @@ async function buildCache(): Promise<ContentCache> {
 		if (!guidePage) {
 			throw new Error(`Guide landing page missing for ${guide.slug}`);
 		}
-		guideLandingByGuide.set(guide.slug, guidePage);
 
 		navByGuide.set(guide.slug, {
 			slug: guide.slug,
@@ -228,35 +224,39 @@ async function buildCache(): Promise<ContentCache> {
 			sections
 		});
 
+		const orderedGuideDocs: DocPage[] = [guidePage];
+		const guidePages: DocPage[] = [];
 		allPaths.push(guideIndex.url.replace('/docs/', ''));
 		for (const section of sections) {
 			allPaths.push(section.url.replace('/docs/', ''));
+			const sectionPage = pagesByUrl.get(section.url);
+			if (sectionPage) orderedGuideDocs.push(sectionPage);
 			for (const page of section.pages) {
 				allPaths.push(page.url.replace('/docs/', ''));
+				const docPage = pagesByUrl.get(page.url);
+				if (docPage) {
+					orderedGuideDocs.push(docPage);
+					guidePages.push(docPage);
+				}
 			}
 		}
+		orderedDocsByGuide.set(guide.slug, orderedGuideDocs);
 
-		for (const doc of guideDocs.filter((entry) => !entry.isGuideIndex && !entry.isSectionIndex)) {
-			const page = pagesByUrl.get(doc.url);
-			if (page) orderedDocs.push(page);
+		// prev/next stays within the guide; section and guide indexes are skipped
+		for (let index = 0; index < guidePages.length; index += 1) {
+			const current = guidePages[index];
+			const prev = guidePages[index - 1];
+			const next = guidePages[index + 1];
+			current.prev = prev ? toDocLink(prev) : undefined;
+			current.next = next ? toDocLink(next) : undefined;
 		}
-	}
-
-	for (let index = 0; index < orderedDocs.length; index += 1) {
-		const current = orderedDocs[index];
-		if (!current) continue;
-		const prev = orderedDocs[index - 1];
-		const next = orderedDocs[index + 1];
-		current.prev = prev ? toDocLink(prev) : undefined;
-		current.next = next ? toDocLink(next) : undefined;
 	}
 
 	return {
 		pagesByUrl,
 		navByGuide,
-		guideLandingByGuide,
 		sectionLandingByUrl,
-		orderedDocs,
+		orderedDocsByGuide,
 		allPaths
 	};
 }
@@ -289,11 +289,6 @@ export async function getGuideNavs(): Promise<GuideNav[]> {
 		.filter((value): value is GuideNav => Boolean(value));
 }
 
-export async function getGuideLanding(guide: GuideSlug): Promise<DocPage | undefined> {
-	const content = await getCache();
-	return content.guideLandingByGuide.get(guide);
-}
-
 export async function getSectionLanding(url: string): Promise<DocPage | undefined> {
 	const content = await getCache();
 	return content.sectionLandingByUrl.get(url);
@@ -309,21 +304,28 @@ export async function getAllPrerenderPaths(): Promise<string[]> {
 	return [...content.allPaths];
 }
 
-export async function getAllDocs(): Promise<DocPage[]> {
-	const content = await getCache();
-	return Array.from(content.pagesByUrl.values()).sort((a, b) => a.url.localeCompare(b.url));
-}
-
 export async function getLlmsIndex(): Promise<string> {
-	const docs = await getAllDocs();
-	const lines = docs.map((doc) => `- [${doc.title}](${doc.url}): ${doc.description}`);
-	return ['# SOC Documentation', '', ...lines, ''].join('\n');
+	const content = await getCache();
+	const lines = ['# SOC Documentation', ''];
+	for (const guide of guides) {
+		const docs = content.orderedDocsByGuide.get(guide.slug) ?? [];
+		lines.push(`## ${guide.title}`, '');
+		for (const doc of docs) {
+			lines.push(`- [${doc.title}](${doc.url}): ${doc.description}`);
+		}
+		lines.push('');
+	}
+	return lines.join('\n');
 }
 
 export async function getLlmsFull(): Promise<string> {
-	const docs = await getAllDocs();
-	const chunks = docs
-		.sort((a, b) => a.url.localeCompare(b.url))
-		.map((doc) => `## ${doc.title}\n\nURL: ${doc.url}\n\n${doc.body}`);
-	return ['# SOC Documentation Full Text', '', ...chunks, ''].join('\n\n');
+	const content = await getCache();
+	const chunks = ['# SOC Documentation Full Text'];
+	for (const guide of guides) {
+		const docs = content.orderedDocsByGuide.get(guide.slug) ?? [];
+		for (const doc of docs) {
+			chunks.push(`## ${doc.title}\n\nURL: ${doc.url}\n\n${doc.body}`);
+		}
+	}
+	return chunks.join('\n\n') + '\n';
 }

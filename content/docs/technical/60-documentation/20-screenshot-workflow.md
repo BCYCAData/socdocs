@@ -31,12 +31,12 @@ embedding images.
 ## File locations and naming
 
 - Store files in static/images/docs/<guide>/<section>/.
-- Use descriptive, kebab-case names tied to page topic.
+- Name the primary capture after the socdocs page it illustrates; supplementary captures add a kebab-case suffix.
 - Keep naming stable so links remain readable and maintainable.
 
 Example:
 
-- /images/docs/user/getting-started/create-account-form.webp
+- /images/docs/user/getting-started/create-your-account.webp
 
 ## Capture standards
 
@@ -72,10 +72,22 @@ Before merge:
 3. run build and link checks to confirm image paths resolve
 4. run check:status to confirm the page's screenshots frontmatter matches its embedded images
 
-## Automation direction
+## Automated capture script
 
-For high-volume capture updates, prefer scripted browser capture workflows to reduce manual drift.
-Use seeded test accounts and a fixed route list so repeated runs produce consistent assets.
+The capture workflow is scripted: scripts/docs-screenshots.ts in the soc-dev repository drives a
+Playwright browser over a fixed manifest that maps each socdocs page to its app route, captures at
+1440x900, and writes webp files straight into this site's static/images/docs/ tree.
+
+```bash
+# in the soc-dev repository, with the dev server running
+npm run docs:screenshots            # capture everything credentials allow
+npm run docs:screenshots -- --list  # show the manifest and credential status
+npm run docs:screenshots -- --only your-property
+```
+
+- Public pages (sign-in, create account, reset password) capture with no setup.
+- Authenticated pages need demo-account credentials via DOCS_SHOTS_RESIDENT/COORDINATOR/ADMIN_EMAIL and \_PASSWORD env vars.
+- The script refuses authenticated captures while the app points at the production Supabase project; use seeded demo accounts in the dev project so no real resident data appears in documentation.
 
 ## Related pages
 

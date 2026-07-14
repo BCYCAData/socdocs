@@ -2,13 +2,15 @@
 title: Sign In and Out
 description: How to securely sign in and sign out of your SOC account.
 status: complete
-screenshots: pending
+screenshots: done
 ---
 
 Use Sign In to access your resident dashboard and protected profile features.
 Sign Out ends your active session on the current browser.
 
 ## Sign in
+
+![The SOC sign-in screen with email and password fields and a Sign In button](/images/docs/user/getting-started/sign-in-and-out.webp)
 
 1. Open the Sign In page.
 2. Enter your registered email and password.

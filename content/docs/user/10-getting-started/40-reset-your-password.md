@@ -2,13 +2,15 @@
 title: Reset Your Password
 description: Steps to recover account access if you forget your password.
 status: complete
-screenshots: pending
+screenshots: done
 ---
 
 If you cannot sign in, use the password reset flow to set a new password securely.
 Reset links are single-use and tied to a recovery session.
 
 ## Reset steps
+
+![The password reset request screen where you enter your account email](/images/docs/user/getting-started/reset-your-password.webp)
 
 1. Open the password reset request page.
 2. Enter your account email and submit.

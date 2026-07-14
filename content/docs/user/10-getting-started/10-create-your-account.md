@@ -2,7 +2,7 @@
 title: Create Your Account
 description: Set up a resident account and verify access.
 status: complete
-screenshots: pending
+screenshots: done
 ---
 
 Creating an account is a two-stage flow: validate your address first, then create login credentials.
@@ -15,6 +15,8 @@ This ensures SOC can connect your account to the correct community context.
 - Use a strong password you do not reuse elsewhere.
 
 ## Steps
+
+![The Create Account screen, starting with address validation](/images/docs/user/getting-started/create-your-account.webp)
 
 1. Open the Create Account page.
 2. Enter your address and submit address validation.
@@ -44,12 +46,3 @@ After verification, SOC redirects you to onboarding so you can complete your ini
 - [Sign In and Out](/docs/user/getting-started/sign-in-and-out)
 - [Reset Your Password](/docs/user/getting-started/reset-your-password)
 - [The Onboarding Survey](/docs/user/getting-started/the-onboarding-survey)
-
-```json
-{
-	"email": "resident@example.com",
-	"name": "SOC Resident"
-}
-```
-
-Further screenshots and step-by-step UI guidance will be added in Phase 2.

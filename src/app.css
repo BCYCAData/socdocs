@@ -131,6 +131,13 @@ a {
 	--tw-prose-bold: var(--color-surface-50);
 }
 
+/* Mermaid pres must not look like code blocks: typography's dark pre
+   background hides the diagram's dark edge strokes in light mode. */
+.prose pre.mermaid {
+	background-color: transparent;
+	color: var(--tw-prose-body);
+}
+
 .prose a {
 	text-decoration: none;
 }

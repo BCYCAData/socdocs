@@ -107,7 +107,7 @@
 			<ul class="max-h-[55vh] space-y-2 overflow-auto">
 				{#each results as item}
 					<li>
-						<a href={item.url} class="block rounded-lg border border-surface-200 px-3 py-2 hover:border-secondary-300 dark:border-surface-700" onclick={onClose}>
+						<a href={item.url} class="block rounded-lg border border-surface-200 px-3 py-2 hover:border-primary-300 dark:border-surface-700" onclick={onClose}>
 							<div class="text-sm font-semibold">{item.meta?.title ?? item.url}</div>
 							<div class="mt-1 text-sm opacity-75">{@html item.excerpt}</div>
 						</a>

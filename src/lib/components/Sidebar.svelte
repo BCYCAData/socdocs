@@ -20,7 +20,7 @@
 						<li>
 							<a
 								href={page.url}
-								class={`block rounded px-2 py-1 ${currentUrl === page.url ? 'bg-secondary-100 text-secondary-700 dark:bg-surface-700 dark:text-secondary-300' : 'text-surface-700 hover:bg-surface-100 dark:text-surface-300 dark:hover:bg-surface-700'}`}
+								class={`block rounded px-2 py-1 ${currentUrl === page.url ? 'bg-primary-100 text-primary-700 dark:bg-surface-700 dark:text-primary-300' : 'text-surface-700 hover:bg-surface-100 dark:text-surface-300 dark:hover:bg-surface-700'}`}
 							>
 								{page.title}
 							</a>

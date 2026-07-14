@@ -28,7 +28,7 @@
 					<a
 						href={page.url}
 						onclick={onClose}
-						class={`ml-3 mt-1 block rounded px-2 py-1 text-sm ${currentUrl === page.url ? 'bg-secondary-100 dark:bg-surface-700' : ''}`}
+						class={`ml-3 mt-1 block rounded px-2 py-1 text-sm ${currentUrl === page.url ? 'bg-primary-100 dark:bg-surface-700' : ''}`}
 					>
 						{page.title}
 					</a>

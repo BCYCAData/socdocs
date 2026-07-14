@@ -85,15 +85,16 @@ body {
 	min-height: 100%;
 }
 
+/* Flat body surfaces, matching soc-dev's --body-background-color pairing */
 body {
 	font-family: var(--font-sans);
 	letter-spacing: 0.025em;
-	background: radial-gradient(circle at top right, var(--color-secondary-100), var(--color-surface-50) 42%);
+	background-color: var(--color-surface-50);
 	color: var(--color-surface-950);
 }
 
 .dark body {
-	background: radial-gradient(circle at top right, var(--color-surface-800), var(--color-surface-950) 42%);
+	background-color: var(--color-surface-950);
 	color: var(--color-surface-50);
 }
 
@@ -114,12 +115,20 @@ a {
 }
 
 .prose {
+	--tw-prose-body: var(--color-surface-950);
 	--tw-prose-headings: var(--color-surface-950);
 	--tw-prose-links: var(--color-tertiary-800);
 	--tw-prose-bold: var(--color-surface-950);
-	--tw-prose-invert-headings: var(--color-surface-50);
-	--tw-prose-invert-links: var(--color-primary-500);
-	--tw-prose-invert-bold: var(--color-surface-50);
+}
+
+/* These unlayered rules always beat the layered prose-invert utility, so dark
+   mode must be handled explicitly here — dark:prose-invert cannot restyle
+   anything the .prose block above sets. */
+.dark .prose {
+	--tw-prose-body: var(--color-surface-50);
+	--tw-prose-headings: var(--color-surface-50);
+	--tw-prose-links: var(--color-primary-500);
+	--tw-prose-bold: var(--color-surface-50);
 }
 
 .prose a {

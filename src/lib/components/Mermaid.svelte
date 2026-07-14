@@ -51,6 +51,6 @@
 	});
 </script>
 
-<div bind:this={root} class="prose prose-slate max-w-none dark:prose-invert">
+<div bind:this={root} class="prose max-w-none dark:prose-invert">
 	{@html html}
 </div>

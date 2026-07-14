@@ -42,7 +42,7 @@
 				{#each data.activeGuide.sections as section}
 					<a
 						href={section.url}
-						class="block rounded-2xl border border-surface-200 bg-white/80 p-5 shadow-sm transition hover:border-secondary-300 hover:shadow-md dark:border-surface-700 dark:bg-surface-800"
+						class="block rounded-2xl border border-surface-200 bg-white/80 p-5 shadow-sm transition hover:border-primary-300 hover:shadow-md dark:border-surface-700 dark:bg-surface-800"
 					>
 						<h2 class="mb-1 text-lg font-semibold">{section.title}</h2>
 						<p class="text-sm text-surface-700 dark:text-surface-200">{section.description}</p>

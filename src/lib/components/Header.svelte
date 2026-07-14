@@ -39,7 +39,7 @@
 				{@const Icon = iconSet[guide.icon] ?? iconSet.BookOpenText}
 				<a
 					href={guide.url}
-					class={`inline-flex items-center gap-1 rounded-lg px-3 py-1.5 text-sm font-semibold ${activeGuide === guide.slug ? 'bg-secondary-100 text-secondary-700 dark:bg-surface-700 dark:text-secondary-300' : 'text-surface-700 hover:bg-surface-100 dark:text-surface-200 dark:hover:bg-surface-700'}`}
+					class={`inline-flex items-center gap-1 rounded-lg px-3 py-1.5 text-sm font-semibold ${activeGuide === guide.slug ? 'bg-primary-100 text-primary-700 dark:bg-surface-700 dark:text-primary-300' : 'text-surface-700 hover:bg-surface-100 dark:text-surface-200 dark:hover:bg-surface-700'}`}
 				>
 					<Icon size={15} />
 					{guide.title}

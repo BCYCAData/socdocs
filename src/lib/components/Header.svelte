@@ -29,7 +29,10 @@
 				Menu
 			</button>
 		{/if}
-		<a href="/" class="text-lg font-semibold tracking-tight">SOC Docs</a>
+		<a href="/" class="flex items-center gap-2 text-lg font-semibold tracking-tight">
+			<img src="/images/brand/SOCLogo_quarter.png" alt="" class="h-6 w-6" width="24" height="24" />
+			SOC Docs
+		</a>
 
 		<nav class="hidden flex-wrap items-center gap-2 md:flex">
 			{#each guides as guide}

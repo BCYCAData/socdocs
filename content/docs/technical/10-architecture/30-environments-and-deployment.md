@@ -2,6 +2,7 @@
 title: Environments and Deployment
 description: How development, preview, and production environments are configured.
 status: stub
+screenshots: none
 ---
 
 This page will document environment setup, required variables, and deployment flow for SOC services.

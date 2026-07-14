@@ -2,6 +2,7 @@
 title: Profile Overview
 description: Understand the profile dashboard and available account information.
 status: complete
+screenshots: pending
 ---
 
 Your profile is the main workspace for managing personal details, settings, and property-linked information.

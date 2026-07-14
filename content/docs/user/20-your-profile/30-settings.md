@@ -2,6 +2,7 @@
 title: Settings
 description: Configure account behavior and personal preferences.
 status: complete
+screenshots: pending
 ---
 
 Settings controls account-level options such as sign-in details and personal account preferences.

@@ -2,6 +2,7 @@
 title: Generated Types
 description: Managing generated database types for application correctness.
 status: complete
+screenshots: none
 ---
 
 Database types are generated from the live schema and committed for compile-time safety.

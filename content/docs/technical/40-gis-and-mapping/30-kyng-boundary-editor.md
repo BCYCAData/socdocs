@@ -2,6 +2,7 @@
 title: KYNG Boundary Editor
 description: Editing workflow and constraints for KYNG boundary management.
 status: complete
+screenshots: none
 ---
 
 The KYNG boundary editor uses a fabric-assignment model rather than freehand polygon editing.

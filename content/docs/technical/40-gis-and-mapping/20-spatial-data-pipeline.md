@@ -2,6 +2,7 @@
 title: Spatial Data Pipeline
 description: Flow for ingesting, validating, and serving spatial datasets.
 status: complete
+screenshots: none
 ---
 
 SOC ingests authoritative spatial datasets, caches reference geometry in PostGIS, and serves map-ready GeoJSON through RPCs and route endpoints.

@@ -2,6 +2,7 @@
 title: Roles and Access
 description: Plain-language summary of resident, coordinator, and admin roles.
 status: complete
+screenshots: none
 ---
 
 SOC uses role-based access so users only see routes and actions relevant to their responsibilities.

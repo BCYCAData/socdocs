@@ -2,6 +2,7 @@
 title: Migrations Workflow
 description: Safe process for creating, reviewing, and applying schema changes.
 status: complete
+screenshots: none
 ---
 
 SOC follows a forward-only migration workflow.

@@ -2,6 +2,7 @@
 title: Mapping Stack
 description: Libraries and services used to render and interact with maps.
 status: complete
+screenshots: none
 ---
 
 SOC uses a single declarative map engine built around MapView profiles and LayerConfig definitions.

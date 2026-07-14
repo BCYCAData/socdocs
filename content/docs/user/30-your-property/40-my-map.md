@@ -2,6 +2,7 @@
 title: My Map
 description: Use the map view to explore property and local context.
 status: complete
+screenshots: pending
 ---
 
 My Map lets you view property context and edit map features for assets, hazards, and operational details.

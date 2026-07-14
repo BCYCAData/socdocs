@@ -2,6 +2,7 @@
 title: Project Team
 description: Teams and contributors involved in delivering the SOC platform.
 status: draft
+screenshots: none
 ---
 
 The project team includes community participants, operational contributors, and delivery partners.

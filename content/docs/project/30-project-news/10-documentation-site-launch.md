@@ -2,6 +2,7 @@
 title: Documentation Site Launch
 description: Announcement and context for launching the SOC documentation site.
 status: complete
+screenshots: none
 ---
 
 The SOC documentation site is now live as a single consolidated docs experience.

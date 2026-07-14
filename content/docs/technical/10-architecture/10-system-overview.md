@@ -2,6 +2,7 @@
 title: System Overview
 description: High-level structure of SOC platform components.
 status: draft
+screenshots: none
 ---
 
 The SOC platform consists of a web client, static documentation site, and managed backend services.

@@ -2,6 +2,7 @@
 title: Workshops
 description: Workshop component goals, format, and outcomes.
 status: complete
+screenshots: none
 ---
 
 Workshops are the project’s hands-on engagement component, helping participants translate information into practical readiness actions.

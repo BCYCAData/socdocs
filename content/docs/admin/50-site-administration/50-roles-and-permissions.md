@@ -2,6 +2,7 @@
 title: Roles and Permissions
 description: Configure role assignments and permission boundaries.
 status: complete
+screenshots: pending
 ---
 
 Roles and Permissions defines who can access which route families and operational actions.

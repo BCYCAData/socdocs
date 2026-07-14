@@ -2,6 +2,7 @@
 title: Assets
 description: Record and maintain property assets relevant to planning.
 status: complete
+screenshots: pending
 ---
 
 Assets records important property features that support readiness and planning.

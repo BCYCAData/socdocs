@@ -2,6 +2,7 @@
 title: Kits
 description: Manage kit workflows associated with resident support activities.
 status: complete
+screenshots: pending
 ---
 
 Kits tracks delivery and status for kit-related readiness workflows.

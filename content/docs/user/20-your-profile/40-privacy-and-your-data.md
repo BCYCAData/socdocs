@@ -2,6 +2,7 @@
 title: Privacy and Your Data
 description: Learn how resident information is stored and protected.
 status: complete
+screenshots: none
 ---
 
 SOC is designed to keep resident data protected while enabling planning and preparedness features.

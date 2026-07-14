@@ -2,6 +2,7 @@
 title: Styling Conventions
 description: UI styling standards, token usage, and consistency rules.
 status: complete
+screenshots: none
 ---
 
 SOC styling conventions prioritize semantic tokens, reusable presets, and predictable dark-mode behavior.

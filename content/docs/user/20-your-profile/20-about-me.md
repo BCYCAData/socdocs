@@ -2,6 +2,7 @@
 title: About Me
 description: Update your personal information and resident profile details.
 status: complete
+screenshots: pending
 ---
 
 The About Me section stores the core personal information used across resident workflows.

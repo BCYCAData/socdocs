@@ -2,6 +2,7 @@
 title: Community Hub Burrell Creek
 description: Burrell Creek community hub goals and activities.
 status: draft
+screenshots: none
 ---
 
 The Burrell Creek hub is a local delivery component that supports community participation, planning conversations, and practical preparedness engagement.

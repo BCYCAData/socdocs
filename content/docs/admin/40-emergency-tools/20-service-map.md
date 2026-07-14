@@ -2,6 +2,7 @@
 title: Service Map
 description: Use service maps to monitor and coordinate response context.
 status: complete
+screenshots: pending
 ---
 
 Service Map provides situational awareness for emergency planning and coordinated response.

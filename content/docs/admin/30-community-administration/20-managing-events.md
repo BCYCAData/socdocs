@@ -2,6 +2,7 @@
 title: Managing Events
 description: Create, update, and maintain community event information.
 status: complete
+screenshots: pending
 ---
 
 Managing Events is used to publish, update, and retire community event entries.

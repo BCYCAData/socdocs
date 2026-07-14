@@ -2,6 +2,7 @@
 title: Writing Docs
 description: Authoring standards for clear, maintainable SOC documentation.
 status: complete
+screenshots: none
 ---
 
 SOC documentation is authored as structured markdown with strict frontmatter and predictable URL mapping.
@@ -24,15 +25,29 @@ Every page must include:
 
 - title
 - description
-- optional status (defaults to complete)
-
-Accepted status values:
-
-- stub
-- draft
-- complete
+- status (stub, draft, or complete)
+- screenshots (none, pending, or done)
 
 Missing required frontmatter should be treated as a build-time correctness issue.
+
+## Status and screenshots are separate dimensions
+
+status tracks prose maturity only:
+
+- stub: skeleton placeholder
+- draft: content exists but needs review or completion
+- complete: prose is finished, verified, and accurate
+
+screenshots tracks capture state independently:
+
+- none: the page needs no captures (conceptual, technical, index, and FAQ pages)
+- pending: the page documents app UI and captures have not been taken yet
+- done: all needed captures are embedded in the page
+
+A page is fully done when status is complete and screenshots is done or none.
+complete plus pending is a valid interim state: finished prose is not demoted to draft
+just because its captures are still in the backlog. Run npm run check:status to list
+the current screenshot backlog and catch inconsistent combinations.
 
 ## Writing style conventions
 
@@ -63,7 +78,8 @@ Missing required frontmatter should be treated as a build-time correctness issue
 
 - Use stub for skeleton placeholders.
 - Use draft when content exists but needs review or completion.
-- Use complete when content has been verified and passes quality gates.
+- Use complete when the prose has been verified and passes quality gates.
+- Flip screenshots from pending to done as captures land; never mark done without embedded images.
 
 ## Pre-merge checklist
 
@@ -73,6 +89,7 @@ Run the validation sequence before merge:
 npm run check
 npm run build
 npm run check:links
+npm run check:status
 npm run lint
 ```
 

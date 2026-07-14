@@ -2,6 +2,7 @@
 title: Sign In and Out
 description: How to securely sign in and sign out of your SOC account.
 status: complete
+screenshots: pending
 ---
 
 Use Sign In to access your resident dashboard and protected profile features.

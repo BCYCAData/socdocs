@@ -2,6 +2,7 @@
 title: Reset Your Password
 description: Steps to recover account access if you forget your password.
 status: complete
+screenshots: pending
 ---
 
 If you cannot sign in, use the password reset flow to set a new password securely.

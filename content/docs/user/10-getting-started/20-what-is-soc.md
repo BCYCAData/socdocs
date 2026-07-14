@@ -2,6 +2,7 @@
 title: What Is SOC
 description: Overview of the SOC platform and its purpose for residents.
 status: stub
+screenshots: none
 ---
 
 SOC helps residents understand local risks, community resources, and preparedness actions.

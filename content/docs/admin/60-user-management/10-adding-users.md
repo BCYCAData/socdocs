@@ -2,6 +2,7 @@
 title: Adding Users
 description: Create user accounts and initialize access.
 status: complete
+screenshots: pending
 ---
 
 Adding Users is used to onboard new people into SOC with the correct initial access.

@@ -2,6 +2,7 @@
 title: Geoscape Tiles
 description: Usage and lifecycle of Geoscape tile sources in SOC maps.
 status: complete
+screenshots: none
 ---
 
 SOC uses Geoscape endpoints for contextual mapping and geocoding workflows through server-side proxy routes.

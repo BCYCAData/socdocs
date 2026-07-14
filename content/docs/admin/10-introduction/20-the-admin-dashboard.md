@@ -2,6 +2,7 @@
 title: The Admin Dashboard
 description: Understand the main dashboard experience for admin users.
 status: complete
+screenshots: pending
 ---
 
 The admin dashboard is the primary entry point for governance, coordination, and operational tasks.

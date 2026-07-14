@@ -2,6 +2,7 @@
 title: Property Overview
 description: Understand the property dashboard and key records.
 status: complete
+screenshots: pending
 ---
 
 The property area organizes address-linked information used for planning and preparedness.

@@ -2,6 +2,7 @@
 title: Community Map
 description: Administer map content and overlays for community users.
 status: complete
+screenshots: pending
 ---
 
 Community Map administration controls map layers and visibility that residents use for local context.

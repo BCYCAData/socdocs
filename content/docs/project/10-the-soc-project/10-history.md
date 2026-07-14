@@ -2,6 +2,7 @@
 title: History
 description: Background and timeline of the Strengthen Our Community initiative.
 status: draft
+screenshots: none
 ---
 
 The Strengthen Our Community project brings together residents, coordinators, and partner organizations to improve local preparedness through shared information and practical tools.

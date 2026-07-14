@@ -2,6 +2,7 @@
 title: Create Your Account
 description: Set up a resident account and verify access.
 status: complete
+screenshots: pending
 ---
 
 Creating an account is a two-stage flow: validate your address first, then create login credentials.

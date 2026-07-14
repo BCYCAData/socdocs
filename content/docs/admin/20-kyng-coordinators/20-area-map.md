@@ -2,6 +2,7 @@
 title: Area Map
 description: Use the area map to review and manage local context.
 status: complete
+screenshots: pending
 ---
 
 Area Map gives coordinators spatial visibility across their assigned KYNG area.

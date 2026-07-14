@@ -2,10 +2,25 @@
 title: Screenshot Workflow
 description: Process for capturing and maintaining documentation screenshots.
 status: complete
+screenshots: none
 ---
 
 Screenshots are a core part of SOC documentation quality and should be captured with a repeatable workflow.
 Treat screenshots as versioned documentation assets, not one-off visual aids.
+
+## Tracking the backlog
+
+Each page declares its capture state in frontmatter via the screenshots field
+(none, pending, or done), separate from prose status. The current backlog is
+every page with screenshots set to pending:
+
+```bash
+npm run check:status
+```
+
+When a page's captures are embedded, flip its screenshots value to done.
+The check fails if a page claims done without embedded images, or none while
+embedding images.
 
 ## Capture goals
 
@@ -55,6 +70,7 @@ Before merge:
 1. verify screenshot text is legible at normal reading zoom
 2. verify dark/light contrast where applicable
 3. run build and link checks to confirm image paths resolve
+4. run check:status to confirm the page's screenshots frontmatter matches its embedded images
 
 ## Automation direction
 

@@ -2,6 +2,7 @@
 title: KYNG Coordinator Assignment
 description: Assign and manage coordinator responsibilities by area.
 status: complete
+screenshots: pending
 ---
 
 KYNG Coordinator Assignment links eligible users to specific KYNG areas for scoped coordinator operations.

@@ -2,6 +2,7 @@
 title: Data and Privacy FAQs
 description: Answers to common questions about data handling and privacy.
 status: complete
+screenshots: none
 ---
 
 ## What information does SOC store about me?

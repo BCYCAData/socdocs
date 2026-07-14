@@ -2,6 +2,7 @@
 title: Information
 description: Access announcements and community knowledge updates.
 status: complete
+screenshots: pending
 ---
 
 Information is the primary feed for community announcements, guidance, and local updates.

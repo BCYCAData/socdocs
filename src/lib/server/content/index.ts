@@ -54,6 +54,12 @@ function parseFrontmatter(raw: string, path: string): { frontmatter: Frontmatter
 		throw new Error(`Invalid status '${String(frontmatter.status)}' in ${path}`);
 	}
 
+	// pending is the safe default: pages must opt out of the screenshot backlog explicitly
+	const screenshots = frontmatter.screenshots ?? 'pending';
+	if (!['none', 'pending', 'done'].includes(screenshots)) {
+		throw new Error(`Invalid screenshots '${String(frontmatter.screenshots)}' in ${path}`);
+	}
+
 	return { frontmatter, body: parsed.content.trim(), status: status as DocStatus };
 }
 

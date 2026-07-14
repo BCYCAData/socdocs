@@ -2,6 +2,7 @@
 title: Row-Level Security
 description: Access control model enforced in Postgres policies.
 status: complete
+screenshots: none
 ---
 
 SOC uses row-level security (RLS) as the final authorization boundary.

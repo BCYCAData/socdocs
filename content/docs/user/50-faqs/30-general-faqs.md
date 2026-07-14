@@ -2,6 +2,7 @@
 title: General FAQs
 description: General answers to common SOC usage questions.
 status: complete
+screenshots: none
 ---
 
 ## What is SOC used for?

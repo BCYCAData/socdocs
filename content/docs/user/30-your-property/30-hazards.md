@@ -2,6 +2,7 @@
 title: Hazards
 description: Capture and review hazard information connected to your property.
 status: complete
+screenshots: pending
 ---
 
 Hazards records help track risks connected to your property and support preparedness planning.

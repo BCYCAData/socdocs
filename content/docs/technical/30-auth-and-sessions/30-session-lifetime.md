@@ -2,6 +2,7 @@
 title: Session Lifetime
 description: Session duration, refresh behavior, and timeout handling.
 status: complete
+screenshots: none
 ---
 
 SOC applies role-tiered session controls using two windows: idle timeout and absolute lifetime.

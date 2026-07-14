@@ -2,6 +2,7 @@
 title: Overview
 description: Community administration responsibilities and workflow summary.
 status: complete
+screenshots: pending
 ---
 
 Community Administration manages resident-facing content and map-linked community context.

@@ -2,6 +2,7 @@
 title: Resources
 description: Access property-related resources, references, and support materials.
 status: complete
+screenshots: pending
 ---
 
 Resources collects supporting information and references linked to your property context.

@@ -2,6 +2,7 @@
 title: Managing Workshops
 description: Admin workflows for workshop planning and publication.
 status: complete
+screenshots: pending
 ---
 
 Managing Workshops supports planning, publishing, and maintaining workshop activities for residents.

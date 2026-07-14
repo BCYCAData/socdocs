@@ -2,6 +2,7 @@
 title: Workshops
 description: Discover and participate in community workshop activities.
 status: complete
+screenshots: pending
 ---
 
 Workshops lists community learning sessions and collaborative preparedness activities.

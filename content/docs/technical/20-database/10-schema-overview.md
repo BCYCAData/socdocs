@@ -2,6 +2,7 @@
 title: Schema Overview
 description: Core entities and relationships that power the SOC platform.
 status: complete
+screenshots: none
 ---
 
 SOC uses PostgreSQL 15 with PostGIS and a single public schema guarded by row-level security.

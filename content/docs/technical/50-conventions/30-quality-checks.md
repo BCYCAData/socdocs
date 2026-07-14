@@ -2,6 +2,7 @@
 title: Quality Checks
 description: Required checks for type safety, links, and production readiness.
 status: complete
+screenshots: none
 ---
 
 SOC documentation changes must pass local validation and CI gates before merge.
@@ -15,6 +16,7 @@ Run these before opening or updating a pull request:
 npm run check
 npm run build
 npm run check:links
+npm run check:status
 npm run lint
 ```
 
@@ -23,6 +25,7 @@ npm run lint
 - check: Svelte and TypeScript diagnostics.
 - build: static prerender pipeline plus search index generation.
 - check:links: internal link integrity in generated HTML output.
+- check:status: frontmatter status/screenshots consistency and the screenshot backlog report.
 - lint: formatting and code-style consistency.
 
 ## CI gate expectations
@@ -52,7 +55,8 @@ Treat CI failures as merge blockers until resolved.
 
 ## Done criteria for content pages
 
-- status is set appropriately for maturity.
+- status is set appropriately for prose maturity.
+- screenshots is done, or none for pages with no UI to show.
 - page builds successfully in static output.
 - links resolve and search indexing includes the new page content.
 

@@ -2,6 +2,7 @@
 title: Authorization and Permissions
 description: Role-based access model for residents, coordinators, and admins.
 status: complete
+screenshots: none
 ---
 
 Authorization in SOC is defense-in-depth: route guards, action checks, and database RLS all participate.

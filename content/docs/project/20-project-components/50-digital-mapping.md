@@ -2,6 +2,7 @@
 title: Digital Mapping
 description: Mapping component objectives and community value.
 status: complete
+screenshots: none
 ---
 
 Digital Mapping is the project component that delivers shared spatial visibility for planning, coordination, and communication.

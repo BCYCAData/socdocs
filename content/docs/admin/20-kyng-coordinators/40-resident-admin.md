@@ -2,6 +2,7 @@
 title: Resident Admin
 description: Coordinator actions for supporting resident account administration.
 status: complete
+screenshots: pending
 ---
 
 Resident Admin allows coordinators to assist residents with scoped account and profile support needs.

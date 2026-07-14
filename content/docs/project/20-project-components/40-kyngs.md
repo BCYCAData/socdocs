@@ -2,6 +2,7 @@
 title: KYNGs
 description: Overview of KYNG groups and their role in the project.
 status: complete
+screenshots: none
 ---
 
 KYNGs provide the project’s area-based coordination structure, supporting local engagement and operational context.

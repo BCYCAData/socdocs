@@ -2,6 +2,7 @@
 title: Overview
 description: High-level summary of all SOC project components.
 status: complete
+screenshots: none
 ---
 
 Project components work together to support local preparedness through community participation, digital tools, and practical delivery activities.

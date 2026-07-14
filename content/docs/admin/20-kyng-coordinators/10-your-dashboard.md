@@ -2,6 +2,7 @@
 title: Your Dashboard
 description: Coordinator dashboard overview and key daily actions.
 status: complete
+screenshots: pending
 ---
 
 The coordinator dashboard summarizes the KYNG areas you are assigned to and the tasks requiring follow-up.

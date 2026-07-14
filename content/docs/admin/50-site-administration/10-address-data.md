@@ -2,6 +2,7 @@
 title: Address Data
 description: Maintain address records used across the SOC platform.
 status: complete
+screenshots: pending
 ---
 
 Address Data administration maintains the address records that support resident onboarding, mapping, and reporting.

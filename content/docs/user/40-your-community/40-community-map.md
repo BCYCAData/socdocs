@@ -2,6 +2,7 @@
 title: Community Map
 description: Use the shared community map for local context and planning.
 status: complete
+screenshots: pending
 ---
 
 Community Map provides area-wide spatial context for your local community.

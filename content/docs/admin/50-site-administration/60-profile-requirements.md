@@ -2,6 +2,7 @@
 title: Profile Requirements
 description: Define profile completion and validation requirements.
 status: complete
+screenshots: pending
 ---
 
 Profile Requirements controls which onboarding and profile fields are mandatory for completion.

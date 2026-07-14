@@ -2,6 +2,7 @@
 title: Messages
 description: Configure and maintain platform messaging content.
 status: complete
+screenshots: pending
 ---
 
 Messages administration controls platform notices shown to users in operational contexts.

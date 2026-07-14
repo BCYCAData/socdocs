@@ -2,6 +2,7 @@
 title: Spatial Data
 description: Manage map layers and spatial datasets for platform features.
 status: complete
+screenshots: pending
 ---
 
 Spatial Data administration manages templates, layers, and geometry-backed datasets used across SOC maps.

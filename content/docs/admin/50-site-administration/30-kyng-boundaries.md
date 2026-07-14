@@ -2,6 +2,7 @@
 title: KYNG Boundaries
 description: Manage KYNG boundary definitions and updates.
 status: complete
+screenshots: pending
 ---
 
 KYNG Boundaries administration manages area definitions used for coordinator scope and map operations.

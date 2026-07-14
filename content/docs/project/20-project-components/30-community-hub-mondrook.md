@@ -2,6 +2,7 @@
 title: Community Hub Mondrook
 description: Mondrook community hub goals and activities.
 status: draft
+screenshots: none
 ---
 
 The Mondrook hub supports local participation and project delivery in the Mondrook area.

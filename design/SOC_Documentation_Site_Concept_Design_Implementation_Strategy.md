@@ -163,7 +163,7 @@ Seed with 3 sample pages (one code-fences, one mermaid, one images) to exercise 
 2. User Guide getting-started/profile/property — seed from `personal-profile-help.ts` + old userguides prose (skim before archival); screenshot workflow starts here.
 3. Administrator Guide — seed `kyng-coordinator-help.ts` then `admin-help.ts`.
 4. Project Guide — needs owner-supplied history/grant text; lowest urgency.
-Definition of done per page: `status: complete`, screenshots present, check:links green.
+Definition of done per page: `status: complete` (prose finished and accurate), screenshots settled, check:links + check:status green. Prose and screenshots are tracked separately: the `screenshots` frontmatter field is `none` (page needs no captures — conceptual/technical/index pages), `pending` (captures needed, not yet taken), or `done` (captures embedded). A page is fully done when status is `complete` and screenshots is `done` or `none`; `complete`+`pending` is a valid interim state — finished prose is not demoted while the screenshot workflow catches up. `npm run check:status` reports the backlog and fails on inconsistencies.
 
 **Phase 3 — Integration + decommission** (touches soc-dev):
 
@@ -176,12 +176,12 @@ Definition of done per page: `status: complete`, screenshots present, check:link
 
 - **Phase 0**: `npm run check` + `npm run build` green; build emits `docs/<sample>/index.html`, `llms.txt`, `llms-full.txt`, `pagefind/pagefind.js`; strict prerender passes; preview: dark toggle no-FOUC, drawer at 375px, mermaid renders both themes, search finds sample; check-links exits 0.
 - **Phase 1**: emitted `build/docs/**/index.html` count == content file count; every sidebar entry navigates; prev/next unbroken; llms.txt lists all pages; CI green.
-- **Phase 2** (per PR): check:links; no StubBanner on complete pages; screenshots legible in dark mode (figure border); pagefind finds new copy.
+- **Phase 2** (per PR): check:links; check:status (no violations; backlog only shrinks); no StubBanner on complete pages; screenshots legible in dark mode (figure border); pagefind finds new copy.
 - **Phase 3**: HelpPanel "Learn more" opens correct docs page (spot-check 5 routes across 3 help maps); domain + `/llms.txt` return 200; old repos show archived badge.
 
 ## Risks / open questions
 
-1. **Screenshots are the biggest ongoing cost.** Recommend a Playwright script in soc-dev (`scripts/docs-screenshots.ts`) signing into dev with a seeded demo account, capturing a named route list at 1440×900 into `socdocs/static/images/docs/`. Open: does a seeded demo resident/coordinator/admin exist in dev? Wizard shots need a fresh account per run.
+1. **Screenshots are the biggest ongoing cost.** Recommend a Playwright script in soc-dev (`scripts/docs-screenshots.ts`) signing into dev with a seeded demo account, capturing a named route list at 1440×900 into `socdocs/static/images/docs/`. Open: does a seeded demo resident/coordinator/admin exist in dev? Wizard shots need a fresh account per run. The capture backlog is the `screenshots: pending` pages listed by `npm run check:status` (38 at time of audit); flip each to `done` as its captures land.
 2. **Docs drift** — route map is today's snapshot (fabric editor mid-build). Mitigations: PR-checklist line, `status` demotion to draft, periodic review.
 3. **Two help-copy sources** (in-app maps vs docs) will diverge; Phase 3 links them; generating HelpPanel copy from docs is deliberately out of scope, flagged in technical/conventions page.
 4. **Domain naming** — owner decision at Phase 3.

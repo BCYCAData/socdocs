@@ -2,10 +2,13 @@ export type GuideSlug = 'user' | 'admin' | 'technical' | 'project';
 
 export type DocStatus = 'stub' | 'draft' | 'complete';
 
+export type ScreenshotStatus = 'none' | 'pending' | 'done';
+
 export type Frontmatter = {
 	title: string;
 	description: string;
 	status?: DocStatus;
+	screenshots?: ScreenshotStatus;
 };
 
 export type TocEntry = {

@@ -2,6 +2,7 @@
 title: Reports
 description: Generate and use emergency reports for operational decisions.
 status: complete
+screenshots: pending
 ---
 
 Emergency reports generate printable or shareable outputs for property and street-level coordination.

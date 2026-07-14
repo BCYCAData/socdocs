@@ -2,6 +2,7 @@
 title: Unregistered Addresses
 description: Identify and manage addresses not yet linked to resident accounts.
 status: complete
+screenshots: pending
 ---
 
 Unregistered Addresses helps coordinators identify properties in their area that are not yet linked to resident accounts.

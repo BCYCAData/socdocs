@@ -2,6 +2,7 @@
 title: Account FAQs
 description: Answers to common account setup and access questions.
 status: complete
+screenshots: none
 ---
 
 ## How do I create an account?

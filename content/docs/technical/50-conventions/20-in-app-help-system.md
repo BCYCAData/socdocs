@@ -2,6 +2,7 @@
 title: In-App Help System
 description: How contextual help content is structured and maintained in SOC.
 status: complete
+screenshots: none
 ---
 
 SOC includes a route-contextual help panel driven by structured help-content maps.

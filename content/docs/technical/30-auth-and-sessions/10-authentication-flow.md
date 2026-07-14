@@ -2,6 +2,7 @@
 title: Authentication Flow
 description: Request and token lifecycle for signing users into SOC.
 status: complete
+screenshots: none
 ---
 
 SOC uses Supabase SSR authentication with server-managed session handling.

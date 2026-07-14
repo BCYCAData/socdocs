@@ -2,6 +2,7 @@
 title: The Onboarding Survey
 description: Complete the first-run survey to personalize your SOC experience.
 status: complete
+screenshots: pending
 ---
 
 The onboarding survey collects your baseline profile and property information.

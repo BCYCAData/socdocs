@@ -2,6 +2,7 @@
 title: Events
 description: Find and engage with community events.
 status: complete
+screenshots: pending
 ---
 
 Events helps you discover local activities related to preparedness, planning, and community coordination.

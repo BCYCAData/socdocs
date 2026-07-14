@@ -2,6 +2,7 @@
 title: Community Overview
 description: Understand the community dashboard and shared information.
 status: complete
+screenshots: pending
 ---
 
 Your Community is where you find shared updates, events, workshops, and map context for your local area.

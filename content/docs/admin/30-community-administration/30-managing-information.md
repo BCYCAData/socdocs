@@ -2,6 +2,7 @@
 title: Managing Information
 description: Publish and maintain community information updates.
 status: complete
+screenshots: pending
 ---
 
 Managing Information publishes resident-facing announcements and guidance updates.

@@ -63,5 +63,5 @@ Use seeded test accounts and a fixed route list so repeated runs produce consist
 
 ## Related pages
 
-- Writing standards and frontmatter rules: /docs/technical/documentation/writing-docs
-- Validation gates for release readiness: /docs/technical/conventions/quality-checks
+- [Writing Docs](/docs/technical/documentation/writing-docs)
+- [Quality Checks](/docs/technical/conventions/quality-checks)

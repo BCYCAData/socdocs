@@ -36,8 +36,8 @@ Begin with Getting Started pages, complete onboarding, then review your profile 
 
 ## Related pages
 
-- Getting started: /docs/user/getting-started
-- Profile overview: /docs/user/your-profile/profile-overview
-- Property overview: /docs/user/your-property/property-overview
-- Community overview: /docs/user/your-community/community-overview
+- [Getting Started](/docs/user/getting-started)
+- [Profile Overview](/docs/user/your-profile/profile-overview)
+- [Property Overview](/docs/user/your-property/property-overview)
+- [Community Overview](/docs/user/your-community/community-overview)
 

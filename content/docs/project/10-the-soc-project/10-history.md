@@ -36,6 +36,6 @@ Add only verified dates, grant references, and outcomes in this page. Keep histo
 
 ## Related pages
 
-- Grant 2021: /docs/project/the-soc-project/grant-2021
-- Grant 2022: /docs/project/the-soc-project/grant-2022
-- Project team: /docs/project/the-soc-project/project-team
+- [Grant 2021](/docs/project/the-soc-project/grant-2021)
+- [Grant 2022](/docs/project/the-soc-project/grant-2022)
+- [Project Team](/docs/project/the-soc-project/project-team)

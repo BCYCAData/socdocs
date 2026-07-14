@@ -27,6 +27,6 @@ SOC uses these answers to configure your starting view and completion progress.
 
 ## Related pages
 
-- Profile overview: /docs/user/your-profile/profile-overview
-- About me: /docs/user/your-profile/about-me
+- [Profile Overview](/docs/user/your-profile/profile-overview)
+- [About Me](/docs/user/your-profile/about-me)
 

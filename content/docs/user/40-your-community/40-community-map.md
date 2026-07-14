@@ -33,7 +33,7 @@ It helps you view boundaries, address points, and community-relevant locations i
 
 ## Related pages
 
-- Community overview: /docs/user/your-community/community-overview
-- Information: /docs/user/your-community/information
-- My map: /docs/user/your-property/my-map
+- [Community Overview](/docs/user/your-community/community-overview)
+- [Information](/docs/user/your-community/information)
+- [My Map](/docs/user/your-property/my-map)
 

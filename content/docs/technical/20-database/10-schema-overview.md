@@ -64,6 +64,6 @@ flowchart TD
 
 ## What to read next
 
-- Row-level policy behavior: /docs/technical/database/row-level-security
-- Schema change process: /docs/technical/database/migrations-workflow
-- Type generation from schema: /docs/technical/database/generated-types
+- [Row-Level Security](/docs/technical/database/row-level-security)
+- [Migrations Workflow](/docs/technical/database/migrations-workflow)
+- [Generated Types](/docs/technical/database/generated-types)

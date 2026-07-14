@@ -46,5 +46,5 @@ The effective deadline is the earlier of those windows for the current role tier
 
 ## Related pages
 
-- Authentication flow context: /docs/technical/auth-and-sessions/authentication-flow
-- Authorization layers: /docs/technical/auth-and-sessions/authorization-and-permissions
+- [Authentication Flow](/docs/technical/auth-and-sessions/authentication-flow)
+- [Authorization and Permissions](/docs/technical/auth-and-sessions/authorization-and-permissions)

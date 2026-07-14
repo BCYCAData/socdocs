@@ -58,5 +58,5 @@ Treat CI failures as merge blockers until resolved.
 
 ## Related pages
 
-- Documentation authoring standards: /docs/technical/documentation/writing-docs
-- Screenshot and asset process: /docs/technical/documentation/screenshot-workflow
+- [Writing Docs](/docs/technical/documentation/writing-docs)
+- [Screenshot Workflow](/docs/technical/documentation/screenshot-workflow)

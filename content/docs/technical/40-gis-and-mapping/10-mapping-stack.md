@@ -52,6 +52,6 @@ flowchart LR
 
 ## Related pages
 
-- Source-data flow and refresh: /docs/technical/gis-and-mapping/spatial-data-pipeline
-- KYNG editing model: /docs/technical/gis-and-mapping/kyng-boundary-editor
-- Geoscape proxy and caching behavior: /docs/technical/gis-and-mapping/geoscape-tiles
+- [Spatial Data Pipeline](/docs/technical/gis-and-mapping/spatial-data-pipeline)
+- [KYNG Boundary Editor](/docs/technical/gis-and-mapping/kyng-boundary-editor)
+- [Geoscape Tiles](/docs/technical/gis-and-mapping/geoscape-tiles)

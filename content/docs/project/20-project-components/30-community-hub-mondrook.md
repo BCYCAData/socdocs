@@ -33,7 +33,7 @@ Add verified local examples and references before moving this page from draft to
 
 ## Related pages
 
-- Project Components overview: /docs/project/project-components/overview
-- Community Hub Burrell Creek: /docs/project/project-components/community-hub-burrell-creek
-- Workshops: /docs/project/project-components/workshops
+- [Overview](/docs/project/project-components/overview)
+- [Community Hub Burrell Creek](/docs/project/project-components/community-hub-burrell-creek)
+- [Workshops](/docs/project/project-components/workshops)
 

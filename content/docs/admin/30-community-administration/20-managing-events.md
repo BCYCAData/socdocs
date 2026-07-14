@@ -22,6 +22,6 @@ Clear event records improve participation and reduce confusion.
 
 ## Related pages
 
-- Community administration overview: /docs/admin/community-administration/overview
-- Managing workshops: /docs/admin/community-administration/managing-workshops
+- [Overview](/docs/admin/community-administration/overview)
+- [Managing Workshops](/docs/admin/community-administration/managing-workshops)
 

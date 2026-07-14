@@ -59,6 +59,6 @@ flowchart TD
 
 ## Related pages
 
-- Map architecture: /docs/technical/gis-and-mapping/mapping-stack
-- KYNG boundary fabric and edit session workflow: /docs/technical/gis-and-mapping/kyng-boundary-editor
-- Geoscape-specific proxy behavior: /docs/technical/gis-and-mapping/geoscape-tiles
+- [Mapping Stack](/docs/technical/gis-and-mapping/mapping-stack)
+- [KYNG Boundary Editor](/docs/technical/gis-and-mapping/kyng-boundary-editor)
+- [Geoscape Tiles](/docs/technical/gis-and-mapping/geoscape-tiles)

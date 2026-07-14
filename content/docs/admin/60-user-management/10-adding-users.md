@@ -34,7 +34,7 @@ This workflow should balance fast onboarding with role and data-scope safety.
 
 ## Related pages
 
-- Roles and permissions: /docs/admin/site-administration/roles-and-permissions
-- KYNG coordinator assignment: /docs/admin/user-management/kyng-coordinator-assignment
-- Kits: /docs/admin/user-management/kits
+- [Roles and Permissions](/docs/admin/site-administration/roles-and-permissions)
+- [KYNG Coordinator Assignment](/docs/admin/user-management/kyng-coordinator-assignment)
+- [Kits](/docs/admin/user-management/kits)
 

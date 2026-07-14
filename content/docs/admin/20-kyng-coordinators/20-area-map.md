@@ -28,6 +28,6 @@ It supports quick review of area context, address points, and property-related l
 
 ## Related pages
 
-- Your dashboard: /docs/admin/kyng-coordinators/your-dashboard
-- Unregistered addresses: /docs/admin/kyng-coordinators/unregistered-addresses
+- [Your Dashboard](/docs/admin/kyng-coordinators/your-dashboard)
+- [Unregistered Addresses](/docs/admin/kyng-coordinators/unregistered-addresses)
 

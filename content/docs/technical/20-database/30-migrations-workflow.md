@@ -42,5 +42,5 @@ Schema changes are tracked in SQL migration files and replayed by CI and deploym
 
 ## Related pages
 
-- Schema model context: /docs/technical/database/schema-overview
-- Type synchronization after schema change: /docs/technical/database/generated-types
+- [Schema Overview](/docs/technical/database/schema-overview)
+- [Generated Types](/docs/technical/database/generated-types)

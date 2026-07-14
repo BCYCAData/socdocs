@@ -22,6 +22,6 @@ This flow complements Events by focusing on workshop-specific operational detail
 
 ## Related pages
 
-- Managing events: /docs/admin/community-administration/managing-events
-- Community administration overview: /docs/admin/community-administration/overview
+- [Managing Events](/docs/admin/community-administration/managing-events)
+- [Overview](/docs/admin/community-administration/overview)
 

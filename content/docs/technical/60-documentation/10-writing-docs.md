@@ -16,7 +16,7 @@ The goal is fast contribution, stable navigation, and durable content quality ov
 Example mapping:
 
 - content/docs/user/10-getting-started/10-create-your-account.md
-- public URL: /docs/user/getting-started/create-your-account
+- [Create Your Account](/docs/user/getting-started/create-your-account)
 
 ## Required frontmatter
 
@@ -78,5 +78,5 @@ npm run lint
 
 ## Related pages
 
-- Validation standards: /docs/technical/conventions/quality-checks
-- Screenshot standards: /docs/technical/documentation/screenshot-workflow
+- [Quality Checks](/docs/technical/conventions/quality-checks)
+- [Screenshot Workflow](/docs/technical/documentation/screenshot-workflow)

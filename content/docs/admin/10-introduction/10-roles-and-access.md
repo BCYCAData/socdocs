@@ -33,7 +33,7 @@ Understanding role scope helps prevent permission confusion and support escalati
 
 ## Related pages
 
-- The admin dashboard: /docs/admin/introduction/the-admin-dashboard
-- KYNG coordinators: /docs/admin/kyng-coordinators
-- Site administration: /docs/admin/site-administration
+- [The Admin Dashboard](/docs/admin/introduction/the-admin-dashboard)
+- [KYNG Coordinators](/docs/admin/kyng-coordinators)
+- [Site Administration](/docs/admin/site-administration)
 

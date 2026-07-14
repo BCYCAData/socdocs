@@ -29,8 +29,8 @@ Use this section to stay informed and connected with community-level activity.
 
 ## Related pages
 
-- Events: /docs/user/your-community/events
-- Information: /docs/user/your-community/information
-- Community map: /docs/user/your-community/community-map
-- Workshops: /docs/user/your-community/workshops
+- [Events](/docs/user/your-community/events)
+- [Information](/docs/user/your-community/information)
+- [Community Map](/docs/user/your-community/community-map)
+- [Workshops](/docs/user/your-community/workshops)
 

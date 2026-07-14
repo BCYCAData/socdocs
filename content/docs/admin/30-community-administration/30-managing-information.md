@@ -22,6 +22,6 @@ Use this flow for timely communications that do not belong in events or workshop
 
 ## Related pages
 
-- Community administration overview: /docs/admin/community-administration/overview
-- Managing events: /docs/admin/community-administration/managing-events
+- [Overview](/docs/admin/community-administration/overview)
+- [Managing Events](/docs/admin/community-administration/managing-events)
 

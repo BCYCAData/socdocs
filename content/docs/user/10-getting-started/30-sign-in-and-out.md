@@ -33,6 +33,6 @@ Sign Out ends your active session on the current browser.
 
 ## Related pages
 
-- Create your account: /docs/user/getting-started/create-your-account
-- Reset your password: /docs/user/getting-started/reset-your-password
+- [Create Your Account](/docs/user/getting-started/create-your-account)
+- [Reset Your Password](/docs/user/getting-started/reset-your-password)
 

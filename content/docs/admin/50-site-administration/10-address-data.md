@@ -28,6 +28,6 @@ Reliable address data is critical for property linkage and operational views.
 
 ## Related pages
 
-- Spatial data: /docs/admin/site-administration/spatial-data
-- Profile requirements: /docs/admin/site-administration/profile-requirements
+- [Spatial Data](/docs/admin/site-administration/spatial-data)
+- [Profile Requirements](/docs/admin/site-administration/profile-requirements)
 

@@ -29,7 +29,7 @@ Document how KYNG participation is structured, including:
 
 ## Related pages
 
-- Project Components overview: /docs/project/project-components/overview
-- Digital Mapping: /docs/project/project-components/digital-mapping
-- The SOC Project history: /docs/project/the-soc-project/history
+- [Overview](/docs/project/project-components/overview)
+- [Digital Mapping](/docs/project/project-components/digital-mapping)
+- [History](/docs/project/the-soc-project/history)
 

@@ -46,5 +46,5 @@ Application checks support hierarchical matching, while RLS policy checks exact 
 
 ## Related pages
 
-- Authentication sequence and claim issuance: /docs/technical/auth-and-sessions/authentication-flow
-- Database policy details: /docs/technical/database/row-level-security
+- [Authentication Flow](/docs/technical/auth-and-sessions/authentication-flow)
+- [Row-Level Security](/docs/technical/database/row-level-security)

@@ -33,7 +33,7 @@ Privacy settings and role-based access controls determine how data is used in th
 
 ## Related pages
 
-- Profile overview: /docs/user/your-profile/profile-overview
-- Settings: /docs/user/your-profile/settings
-- Account FAQs: /docs/user/faqs/account-faqs
+- [Profile Overview](/docs/user/your-profile/profile-overview)
+- [Settings](/docs/user/your-profile/settings)
+- [Account FAQs](/docs/user/faqs/account-faqs)
 

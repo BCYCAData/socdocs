@@ -28,8 +28,8 @@ It is the starting point for assets, hazards, resources, and map-based features.
 
 ## Related pages
 
-- Assets: /docs/user/your-property/assets
-- Hazards: /docs/user/your-property/hazards
-- My map: /docs/user/your-property/my-map
-- Resources: /docs/user/your-property/resources
+- [Assets](/docs/user/your-property/assets)
+- [Hazards](/docs/user/your-property/hazards)
+- [My Map](/docs/user/your-property/my-map)
+- [Resources](/docs/user/your-property/resources)
 

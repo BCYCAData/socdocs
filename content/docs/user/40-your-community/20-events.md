@@ -27,7 +27,7 @@ Use this area to track what is happening and decide where to participate.
 
 ## Related pages
 
-- Community overview: /docs/user/your-community/community-overview
-- Workshops: /docs/user/your-community/workshops
-- Community map: /docs/user/your-community/community-map
+- [Community Overview](/docs/user/your-community/community-overview)
+- [Workshops](/docs/user/your-community/workshops)
+- [Community Map](/docs/user/your-community/community-map)
 

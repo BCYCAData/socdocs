@@ -22,6 +22,6 @@ Use this area to verify map quality and alignment with current community data.
 
 ## Related pages
 
-- Community administration overview: /docs/admin/community-administration/overview
-- Managing information: /docs/admin/community-administration/managing-information
+- [Overview](/docs/admin/community-administration/overview)
+- [Managing Information](/docs/admin/community-administration/managing-information)
 

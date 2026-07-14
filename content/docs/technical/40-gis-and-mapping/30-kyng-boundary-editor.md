@@ -56,5 +56,5 @@ Editors reassign cadastral fabric polygons between neighboring KYNG areas, then 
 
 ## Related pages
 
-- Mapping architecture: /docs/technical/gis-and-mapping/mapping-stack
-- Source-data lifecycle and refresh model: /docs/technical/gis-and-mapping/spatial-data-pipeline
+- [Mapping Stack](/docs/technical/gis-and-mapping/mapping-stack)
+- [Spatial Data Pipeline](/docs/technical/gis-and-mapping/spatial-data-pipeline)

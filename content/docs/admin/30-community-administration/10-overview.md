@@ -22,8 +22,8 @@ This section covers recurring publishing and maintenance workflows.
 
 ## Related pages
 
-- Managing events: /docs/admin/community-administration/managing-events
-- Managing information: /docs/admin/community-administration/managing-information
-- Community map: /docs/admin/community-administration/community-map
-- Managing workshops: /docs/admin/community-administration/managing-workshops
+- [Managing Events](/docs/admin/community-administration/managing-events)
+- [Managing Information](/docs/admin/community-administration/managing-information)
+- [Community Map](/docs/admin/community-administration/community-map)
+- [Managing Workshops](/docs/admin/community-administration/managing-workshops)
 

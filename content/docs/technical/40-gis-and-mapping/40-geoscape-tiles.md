@@ -38,5 +38,5 @@ Tiles are treated as contextual overlays, while authoritative project reference 
 
 ## Related pages
 
-- Overall map engine and layer model: /docs/technical/gis-and-mapping/mapping-stack
-- Source-data lifecycle and cached geometry model: /docs/technical/gis-and-mapping/spatial-data-pipeline
+- [Mapping Stack](/docs/technical/gis-and-mapping/mapping-stack)
+- [Spatial Data Pipeline](/docs/technical/gis-and-mapping/spatial-data-pipeline)

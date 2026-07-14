@@ -29,7 +29,7 @@ Completion and status indicators help you track what remains to be configured.
 
 ## Related pages
 
-- About me: /docs/user/your-profile/about-me
-- Privacy and your data: /docs/user/your-profile/privacy-and-your-data
-- Property overview: /docs/user/your-property/property-overview
+- [About Me](/docs/user/your-profile/about-me)
+- [Privacy and Your Data](/docs/user/your-profile/privacy-and-your-data)
+- [Property Overview](/docs/user/your-property/property-overview)
 

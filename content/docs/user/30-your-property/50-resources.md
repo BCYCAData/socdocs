@@ -28,7 +28,7 @@ Use this area to keep useful materials accessible for planning and follow-up act
 
 ## Related pages
 
-- Property overview: /docs/user/your-property/property-overview
-- Assets: /docs/user/your-property/assets
-- Hazards: /docs/user/your-property/hazards
+- [Property Overview](/docs/user/your-property/property-overview)
+- [Assets](/docs/user/your-property/assets)
+- [Hazards](/docs/user/your-property/hazards)
 

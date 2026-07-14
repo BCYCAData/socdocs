@@ -28,6 +28,6 @@ Use this area to enforce least-privilege access and maintain governance controls
 
 ## Related pages
 
-- Roles and access overview: /docs/admin/introduction/roles-and-access
-- Profile requirements: /docs/admin/site-administration/profile-requirements
+- [Roles and Access](/docs/admin/introduction/roles-and-access)
+- [Profile Requirements](/docs/admin/site-administration/profile-requirements)
 

@@ -27,6 +27,6 @@ This supports targeted outreach and onboarding assistance.
 
 ## Related pages
 
-- Your dashboard: /docs/admin/kyng-coordinators/your-dashboard
-- Resident admin: /docs/admin/kyng-coordinators/resident-admin
+- [Your Dashboard](/docs/admin/kyng-coordinators/your-dashboard)
+- [Resident Admin](/docs/admin/kyng-coordinators/resident-admin)
 

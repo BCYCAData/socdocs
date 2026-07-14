@@ -33,7 +33,7 @@ It also provides a stable foundation for iterative content updates and deeper in
 
 ## Related pages
 
-- Project Guide: /docs/project
-- The SOC Project: /docs/project/the-soc-project
-- Project Components: /docs/project/project-components
+- [Project Guide](/docs/project)
+- [The SOC Project](/docs/project/the-soc-project)
+- [Project Components](/docs/project/project-components)
 

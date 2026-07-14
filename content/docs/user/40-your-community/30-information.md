@@ -27,7 +27,7 @@ Check this page to stay current on changes that affect your area.
 
 ## Related pages
 
-- Community overview: /docs/user/your-community/community-overview
-- Events: /docs/user/your-community/events
-- Property overview: /docs/user/your-property/property-overview
+- [Community Overview](/docs/user/your-community/community-overview)
+- [Events](/docs/user/your-community/events)
+- [Property Overview](/docs/user/your-property/property-overview)
 

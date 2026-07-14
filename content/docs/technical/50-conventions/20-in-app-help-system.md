@@ -57,5 +57,5 @@ Planned integration pattern:
 
 ## Related pages
 
-- User-facing documentation standards: /docs/technical/documentation/writing-docs
-- Validation and release checks: /docs/technical/conventions/quality-checks
+- [Writing Docs](/docs/technical/documentation/writing-docs)
+- [Quality Checks](/docs/technical/conventions/quality-checks)

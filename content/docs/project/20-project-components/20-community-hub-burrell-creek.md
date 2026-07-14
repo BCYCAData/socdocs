@@ -34,7 +34,7 @@ Add verified local milestones and approved partner references before changing th
 
 ## Related pages
 
-- Project Components overview: /docs/project/project-components/overview
-- Community Hub Mondrook: /docs/project/project-components/community-hub-mondrook
-- Workshops: /docs/project/project-components/workshops
+- [Overview](/docs/project/project-components/overview)
+- [Community Hub Mondrook](/docs/project/project-components/community-hub-mondrook)
+- [Workshops](/docs/project/project-components/workshops)
 

@@ -28,6 +28,6 @@ This area controls map reliability for resident, coordinator, and admin workflow
 
 ## Related pages
 
-- KYNG boundaries: /docs/admin/site-administration/kyng-boundaries
-- Service map: /docs/admin/emergency-tools/service-map
+- [KYNG Boundaries](/docs/admin/site-administration/kyng-boundaries)
+- [Service Map](/docs/admin/emergency-tools/service-map)
 

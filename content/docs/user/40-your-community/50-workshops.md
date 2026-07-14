@@ -27,7 +27,7 @@ Use this page to track opportunities to build practical readiness skills.
 
 ## Related pages
 
-- Community overview: /docs/user/your-community/community-overview
-- Events: /docs/user/your-community/events
-- Information: /docs/user/your-community/information
+- [Community Overview](/docs/user/your-community/community-overview)
+- [Events](/docs/user/your-community/events)
+- [Information](/docs/user/your-community/information)
 

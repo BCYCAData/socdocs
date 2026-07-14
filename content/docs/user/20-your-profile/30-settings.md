@@ -27,7 +27,7 @@ Use this area when you need to update how your account is secured or configured.
 
 ## Related pages
 
-- Sign in and out: /docs/user/getting-started/sign-in-and-out
-- Reset your password: /docs/user/getting-started/reset-your-password
-- Privacy and your data: /docs/user/your-profile/privacy-and-your-data
+- [Sign In and Out](/docs/user/getting-started/sign-in-and-out)
+- [Reset Your Password](/docs/user/getting-started/reset-your-password)
+- [Privacy and Your Data](/docs/user/your-profile/privacy-and-your-data)
 

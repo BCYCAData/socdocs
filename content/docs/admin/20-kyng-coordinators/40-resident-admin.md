@@ -27,6 +27,6 @@ Use this area for operational support within your assigned KYNG context.
 
 ## Related pages
 
-- Unregistered addresses: /docs/admin/kyng-coordinators/unregistered-addresses
-- Roles and access: /docs/admin/introduction/roles-and-access
+- [Unregistered Addresses](/docs/admin/kyng-coordinators/unregistered-addresses)
+- [Roles and Access](/docs/admin/introduction/roles-and-access)
 

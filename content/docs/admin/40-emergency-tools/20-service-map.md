@@ -28,6 +28,6 @@ It combines selected properties with map layers and operational detail popups.
 
 ## Related pages
 
-- Reports: /docs/admin/emergency-tools/reports
-- Spatial data: /docs/admin/site-administration/spatial-data
+- [Reports](/docs/admin/emergency-tools/reports)
+- [Spatial Data](/docs/admin/site-administration/spatial-data)
 

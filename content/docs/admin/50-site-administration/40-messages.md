@@ -22,6 +22,6 @@ Use this area for timely, clear communication aligned to audience and scope.
 
 ## Related pages
 
-- Managing information: /docs/admin/community-administration/managing-information
-- Roles and permissions: /docs/admin/site-administration/roles-and-permissions
+- [Managing Information](/docs/admin/community-administration/managing-information)
+- [Roles and Permissions](/docs/admin/site-administration/roles-and-permissions)
 

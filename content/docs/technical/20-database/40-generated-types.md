@@ -45,5 +45,5 @@ Prefer script wrappers in package scripts for consistency across contributors.
 
 ## Related pages
 
-- Migration process: /docs/technical/database/migrations-workflow
-- Auth claims and policy model: /docs/technical/auth-and-sessions/authorization-and-permissions
+- [Migrations Workflow](/docs/technical/database/migrations-workflow)
+- [Authorization and Permissions](/docs/technical/auth-and-sessions/authorization-and-permissions)

@@ -34,9 +34,9 @@ Avoid unverified quantitative claims until source data is approved for publicati
 
 ## Related pages
 
-- Community Hub Burrell Creek: /docs/project/project-components/community-hub-burrell-creek
-- Community Hub Mondrook: /docs/project/project-components/community-hub-mondrook
-- KYNGs: /docs/project/project-components/kyngs
-- Digital Mapping: /docs/project/project-components/digital-mapping
-- Workshops: /docs/project/project-components/workshops
+- [Community Hub Burrell Creek](/docs/project/project-components/community-hub-burrell-creek)
+- [Community Hub Mondrook](/docs/project/project-components/community-hub-mondrook)
+- [KYNGs](/docs/project/project-components/kyngs)
+- [Digital Mapping](/docs/project/project-components/digital-mapping)
+- [Workshops](/docs/project/project-components/workshops)
 

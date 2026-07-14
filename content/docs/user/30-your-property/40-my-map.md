@@ -37,7 +37,7 @@ Feature editing is template-based, so you should select the correct layer type b
 
 ## Related pages
 
-- Property overview: /docs/user/your-property/property-overview
-- Assets: /docs/user/your-property/assets
-- Hazards: /docs/user/your-property/hazards
+- [Property Overview](/docs/user/your-property/property-overview)
+- [Assets](/docs/user/your-property/assets)
+- [Hazards](/docs/user/your-property/hazards)
 

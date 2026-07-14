@@ -27,7 +27,7 @@ It is the starting point for area-level map review and resident support activity
 
 ## Related pages
 
-- Area map: /docs/admin/kyng-coordinators/area-map
-- Unregistered addresses: /docs/admin/kyng-coordinators/unregistered-addresses
-- Resident admin: /docs/admin/kyng-coordinators/resident-admin
+- [Area Map](/docs/admin/kyng-coordinators/area-map)
+- [Unregistered Addresses](/docs/admin/kyng-coordinators/unregistered-addresses)
+- [Resident Admin](/docs/admin/kyng-coordinators/resident-admin)
 

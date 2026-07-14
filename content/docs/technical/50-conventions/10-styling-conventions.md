@@ -53,5 +53,5 @@ For filled controls, ensure readable contrast text is applied by preset conventi
 
 ## Related pages
 
-- Documentation authoring and consistency: /docs/technical/documentation/writing-docs
-- Validation expectations and gates: /docs/technical/conventions/quality-checks
+- [Writing Docs](/docs/technical/documentation/writing-docs)
+- [Quality Checks](/docs/technical/conventions/quality-checks)

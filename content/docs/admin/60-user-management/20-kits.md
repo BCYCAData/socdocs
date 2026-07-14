@@ -27,6 +27,6 @@ Use this page to record kit handover outcomes and maintain reliable operational 
 
 ## Related pages
 
-- Adding users: /docs/admin/user-management/adding-users
-- Roles and permissions: /docs/admin/site-administration/roles-and-permissions
+- [Adding Users](/docs/admin/user-management/adding-users)
+- [Roles and Permissions](/docs/admin/site-administration/roles-and-permissions)
 

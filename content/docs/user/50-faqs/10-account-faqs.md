@@ -41,8 +41,8 @@ Sign in again and continue where you left off.
 
 ## Related pages
 
-- Create your account: /docs/user/getting-started/create-your-account
-- Sign in and out: /docs/user/getting-started/sign-in-and-out
-- Reset your password: /docs/user/getting-started/reset-your-password
-- Settings: /docs/user/your-profile/settings
+- [Create Your Account](/docs/user/getting-started/create-your-account)
+- [Sign In and Out](/docs/user/getting-started/sign-in-and-out)
+- [Reset Your Password](/docs/user/getting-started/reset-your-password)
+- [Settings](/docs/user/your-profile/settings)
 

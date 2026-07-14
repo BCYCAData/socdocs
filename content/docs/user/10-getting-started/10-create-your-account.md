@@ -40,9 +40,9 @@ After verification, SOC redirects you to onboarding so you can complete your ini
 
 ## Related pages
 
-- Sign in and out: /docs/user/getting-started/sign-in-and-out
-- Reset your password: /docs/user/getting-started/reset-your-password
-- Onboarding survey: /docs/user/getting-started/the-onboarding-survey
+- [Sign In and Out](/docs/user/getting-started/sign-in-and-out)
+- [Reset Your Password](/docs/user/getting-started/reset-your-password)
+- [The Onboarding Survey](/docs/user/getting-started/the-onboarding-survey)
 
 
 ```json

@@ -28,7 +28,7 @@ Technical implementation detail belongs in the Technical Guide, while this page 
 
 ## Related pages
 
-- Project Components overview: /docs/project/project-components/overview
-- KYNGs: /docs/project/project-components/kyngs
-- Technical mapping architecture: /docs/technical/gis-and-mapping/mapping-stack
+- [Overview](/docs/project/project-components/overview)
+- [KYNGs](/docs/project/project-components/kyngs)
+- [Mapping Stack](/docs/technical/gis-and-mapping/mapping-stack)
 

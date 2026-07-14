@@ -45,5 +45,5 @@ Key claim categories include role tier, granted permissions, property scope, and
 
 ## Related pages
 
-- Permission and route enforcement: /docs/technical/auth-and-sessions/authorization-and-permissions
-- Session window policy and enforcement: /docs/technical/auth-and-sessions/session-lifetime
+- [Authorization and Permissions](/docs/technical/auth-and-sessions/authorization-and-permissions)
+- [Session Lifetime](/docs/technical/auth-and-sessions/session-lifetime)

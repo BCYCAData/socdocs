@@ -41,4 +41,3 @@ See the platform privacy policy and related account documentation.
 - [Privacy and Your Data](/docs/user/your-profile/privacy-and-your-data)
 - [Settings](/docs/user/your-profile/settings)
 - [Account FAQs](/docs/user/faqs/account-faqs)
-

@@ -32,4 +32,3 @@ Use this area to keep known risks visible and current.
 - [Property Overview](/docs/user/your-property/property-overview)
 - [My Map](/docs/user/your-property/my-map)
 - [Resources](/docs/user/your-property/resources)
-

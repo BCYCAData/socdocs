@@ -25,4 +25,3 @@ Use this flow for timely communications that do not belong in events or workshop
 
 - [Overview](/docs/admin/community-administration/overview)
 - [Managing Events](/docs/admin/community-administration/managing-events)
-

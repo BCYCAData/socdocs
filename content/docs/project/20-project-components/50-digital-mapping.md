@@ -32,4 +32,3 @@ Technical implementation detail belongs in the Technical Guide, while this page 
 - [Overview](/docs/project/project-components/overview)
 - [KYNGs](/docs/project/project-components/kyngs)
 - [Mapping Stack](/docs/technical/gis-and-mapping/mapping-stack)
-

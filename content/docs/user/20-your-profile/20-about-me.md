@@ -32,4 +32,3 @@ Accurate details improve communication and reduce follow-up during support inter
 - [Profile Overview](/docs/user/your-profile/profile-overview)
 - [Settings](/docs/user/your-profile/settings)
 - [Privacy and Your Data](/docs/user/your-profile/privacy-and-your-data)
-

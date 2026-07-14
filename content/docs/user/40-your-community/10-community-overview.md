@@ -34,4 +34,3 @@ Use this section to stay informed and connected with community-level activity.
 - [Information](/docs/user/your-community/information)
 - [Community Map](/docs/user/your-community/community-map)
 - [Workshops](/docs/user/your-community/workshops)
-

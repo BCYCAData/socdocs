@@ -25,4 +25,3 @@ This flow complements Events by focusing on workshop-specific operational detail
 
 - [Managing Events](/docs/admin/community-administration/managing-events)
 - [Overview](/docs/admin/community-administration/overview)
-

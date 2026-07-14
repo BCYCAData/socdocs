@@ -32,4 +32,3 @@ Keeping asset details current improves map quality and decision context.
 - [Property Overview](/docs/user/your-property/property-overview)
 - [My Map](/docs/user/your-property/my-map)
 - [Hazards](/docs/user/your-property/hazards)
-

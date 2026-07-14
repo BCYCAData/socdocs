@@ -31,4 +31,3 @@ It is the starting point for area-level map review and resident support activity
 - [Area Map](/docs/admin/kyng-coordinators/area-map)
 - [Unregistered Addresses](/docs/admin/kyng-coordinators/unregistered-addresses)
 - [Resident Admin](/docs/admin/kyng-coordinators/resident-admin)
-

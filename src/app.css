@@ -156,7 +156,9 @@ a {
 }
 
 code {
-	font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
+	font-family:
+		ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New',
+		monospace;
 }
 
 /* Activate shiki's dual-theme CSS variables when the dark class is set */

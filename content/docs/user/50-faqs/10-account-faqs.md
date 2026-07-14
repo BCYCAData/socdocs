@@ -46,4 +46,3 @@ Sign in again and continue where you left off.
 - [Sign In and Out](/docs/user/getting-started/sign-in-and-out)
 - [Reset Your Password](/docs/user/getting-started/reset-your-password)
 - [Settings](/docs/user/your-profile/settings)
-

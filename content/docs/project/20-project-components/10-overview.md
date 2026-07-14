@@ -40,4 +40,3 @@ Avoid unverified quantitative claims until source data is approved for publicati
 - [KYNGs](/docs/project/project-components/kyngs)
 - [Digital Mapping](/docs/project/project-components/digital-mapping)
 - [Workshops](/docs/project/project-components/workshops)
-

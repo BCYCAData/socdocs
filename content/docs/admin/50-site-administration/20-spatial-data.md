@@ -31,4 +31,3 @@ This area controls map reliability for resident, coordinator, and admin workflow
 
 - [KYNG Boundaries](/docs/admin/site-administration/kyng-boundaries)
 - [Service Map](/docs/admin/emergency-tools/service-map)
-

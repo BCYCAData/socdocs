@@ -4,7 +4,9 @@
 	let { guide, currentUrl } = $props<{ guide: GuideNav; currentUrl: string }>();
 </script>
 
-<nav class="sticky top-20 hidden max-h-[calc(100vh-6rem)] overflow-auto rounded-xl border border-surface-200 bg-white/70 p-4 text-sm lg:block dark:border-surface-700 dark:bg-surface-800/80">
+<nav
+	class="sticky top-20 hidden max-h-[calc(100vh-6rem)] overflow-auto rounded-xl border border-surface-200 bg-white/70 p-4 text-sm lg:block dark:border-surface-700 dark:bg-surface-800/80"
+>
 	<h2 class="mb-4 font-semibold">{guide.title}</h2>
 	<ul class="space-y-5">
 		{#each guide.sections as section}

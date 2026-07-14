@@ -33,4 +33,3 @@ Completion and status indicators help you track what remains to be configured.
 - [About Me](/docs/user/your-profile/about-me)
 - [Privacy and Your Data](/docs/user/your-profile/privacy-and-your-data)
 - [Property Overview](/docs/user/your-property/property-overview)
-

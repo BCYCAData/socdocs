@@ -1,5 +1,10 @@
 import { error } from '@sveltejs/kit';
-import { getAllPrerenderPaths, getDocPage, getGuideNavs, getSectionLanding } from '$lib/server/content';
+import {
+	getAllPrerenderPaths,
+	getDocPage,
+	getGuideNavs,
+	getSectionLanding
+} from '$lib/server/content';
 import { guideMap } from '$lib/guides';
 import type { GuideSlug } from '$lib/types';
 

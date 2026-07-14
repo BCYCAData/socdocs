@@ -17,12 +17,13 @@ async function walk(dir, output = []) {
 
 function collectInternalLinks(html) {
 	const hrefs = [...html.matchAll(/(?:href|src)=\"([^\"]+)\"/g)].map((match) => match[1]);
-	return hrefs.filter((link) =>
-		link.startsWith('/') &&
-		!link.startsWith('//') &&
-		!link.startsWith('/#') &&
-		!link.startsWith('/http') &&
-		!link.startsWith('/mailto:')
+	return hrefs.filter(
+		(link) =>
+			link.startsWith('/') &&
+			!link.startsWith('//') &&
+			!link.startsWith('/#') &&
+			!link.startsWith('/http') &&
+			!link.startsWith('/mailto:')
 	);
 }
 

@@ -31,4 +31,3 @@ It combines selected properties with map layers and operational detail popups.
 
 - [Reports](/docs/admin/emergency-tools/reports)
 - [Spatial Data](/docs/admin/site-administration/spatial-data)
-

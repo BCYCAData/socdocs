@@ -27,12 +27,12 @@ deep links into the docs site).
 
 ## Concept
 
-| Section | URL | Audience | Seed material |
-| - | - | - | - |
-| User Guide | `/docs/user` | Residents | help-content maps + old userguides IA + app routes |
-| Administrator Guide | `/docs/admin` | Site admins, KYNG coordinators | admin/kyng help maps + admin routes |
-| Technical Guide | `/docs/technical` | Developers/maintainers | soc-dev `docs/design/*` (near-free port) |
-| Project Guide | `/docs/project` | Public / funders | old projectguide IA (history, grants, components) |
+| Section             | URL               | Audience                       | Seed material                                      |
+| ------------------- | ----------------- | ------------------------------ | -------------------------------------------------- |
+| User Guide          | `/docs/user`      | Residents                      | help-content maps + old userguides IA + app routes |
+| Administrator Guide | `/docs/admin`     | Site admins, KYNG coordinators | admin/kyng help maps + admin routes                |
+| Technical Guide     | `/docs/technical` | Developers/maintainers         | soc-dev `docs/design/*` (near-free port)           |
+| Project Guide       | `/docs/project`   | Public / funders               | old projectguide IA (history, grants, components)  |
 
 Landing page `/` = hero + four guide cards. `/docs/<guide>` = guide landing (index.md body +
 section list). Route→permission map in `docs/design/auth-and-session.md:197-257` defines which
@@ -40,18 +40,18 @@ guide documents which routes.
 
 ## Design — technology decisions
 
-| Decision | Choice | Rationale |
-| - | - | - |
-| Framework | SvelteKit 2 + Svelte 5, Node 22 | Owner's stack |
-| UI | Plain Tailwind v4 + `@tailwindcss/typography` — **no Skeleton** | Docs site is 95% prose; brand match achieved by porting SOC color tokens from `soc-dev/soc-theme.css` into `@theme` in app.css + same @fontsource fonts. Avoids Skeleton version churn |
-| Adapter | `@sveltejs/adapter-static` (`strict: true`) | Everything public/prerenderable incl. llms.txt endpoints; strict mode fails the build if anything escapes prerender. Zero functions on Vercel |
-| Markdown | Custom unified pipeline in `+page.server.ts` (remark-parse → remark-gfm → remark-rehype → rehype-slug → rehype-autolink-headings → custom TOC/figure steps → `@shikijs/rehype` → rehype-stringify), **not mdsvex** | Mirrors svelte.dev (custom renderer); content stays plain portable .md that feeds llms-full.txt directly; no markdown JS ships to client. mdsvex remains an escape hatch for interactive islands later |
-| Frontmatter | `gray-matter`; schema: `title` (req), `description` (req), `status: stub\|draft\|complete` (default complete) | Loader validates; build error on missing keys or duplicate slugs |
-| Code highlighting | shiki dual themes (github-light/github-dark, CSS-variable output) | Dark mode "just works" with class toggle |
-| Mermaid | Client-side island: ```` ```mermaid ```` fences → `<pre class="mermaid" data-diagram>`; `Mermaid.svelte` dynamic-imports mermaid@11 only on pages containing diagrams; theme-aware, re-renders on navigate | Mermaid can't SSR; keeps base payload tiny. Needed for technical-guide architecture diagrams |
-| Search | **Pagefind** — `"build": "vite build && pagefind --site build"`; lazy-loaded SearchModal (Cmd/Ctrl+K), dev-mode guard; `data-pagefind-meta="guide:…"` for grouping; stubs get `data-pagefind-ignore` | Indexes built HTML post-build, zero index code to maintain (simpler than svelte.dev's flexsearch) |
-| Icons | `lucide-svelte` | Already used in soc-dev |
-| Hosting | New Vercel project `socdocs`, output `build/` | Domain wiring deferred to Phase 3 (`socdocs.vercel.app` until then) |
+| Decision          | Choice                                                                                                                                                                                                             | Rationale                                                                                                                                                                                              |
+| ----------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Framework         | SvelteKit 2 + Svelte 5, Node 22                                                                                                                                                                                    | Owner's stack                                                                                                                                                                                          |
+| UI                | Plain Tailwind v4 + `@tailwindcss/typography` — **no Skeleton**                                                                                                                                                    | Docs site is 95% prose; brand match achieved by porting SOC color tokens from `soc-dev/soc-theme.css` into `@theme` in app.css + same @fontsource fonts. Avoids Skeleton version churn                 |
+| Adapter           | `@sveltejs/adapter-static` (`strict: true`)                                                                                                                                                                        | Everything public/prerenderable incl. llms.txt endpoints; strict mode fails the build if anything escapes prerender. Zero functions on Vercel                                                          |
+| Markdown          | Custom unified pipeline in `+page.server.ts` (remark-parse → remark-gfm → remark-rehype → rehype-slug → rehype-autolink-headings → custom TOC/figure steps → `@shikijs/rehype` → rehype-stringify), **not mdsvex** | Mirrors svelte.dev (custom renderer); content stays plain portable .md that feeds llms-full.txt directly; no markdown JS ships to client. mdsvex remains an escape hatch for interactive islands later |
+| Frontmatter       | `gray-matter`; schema: `title` (req), `description` (req), `status: stub\|draft\|complete` (default complete)                                                                                                      | Loader validates; build error on missing keys or duplicate slugs                                                                                                                                       |
+| Code highlighting | shiki dual themes (github-light/github-dark, CSS-variable output)                                                                                                                                                  | Dark mode "just works" with class toggle                                                                                                                                                               |
+| Mermaid           | Client-side island: ` ```mermaid ` fences → `<pre class="mermaid" data-diagram>`; `Mermaid.svelte` dynamic-imports mermaid@11 only on pages containing diagrams; theme-aware, re-renders on navigate               | Mermaid can't SSR; keeps base payload tiny. Needed for technical-guide architecture diagrams                                                                                                           |
+| Search            | **Pagefind** — `"build": "vite build && pagefind --site build"`; lazy-loaded SearchModal (Cmd/Ctrl+K), dev-mode guard; `data-pagefind-meta="guide:…"` for grouping; stubs get `data-pagefind-ignore`               | Indexes built HTML post-build, zero index code to maintain (simpler than svelte.dev's flexsearch)                                                                                                      |
+| Icons             | `lucide-svelte`                                                                                                                                                                                                    | Already used in soc-dev                                                                                                                                                                                |
+| Hosting           | New Vercel project `socdocs`, output `build/`                                                                                                                                                                      | Domain wiring deferred to Phase 3 (`socdocs.vercel.app` until then)                                                                                                                                    |
 
 ## Design — repo scaffold
 
@@ -153,7 +153,7 @@ socdocs/
 9. llms.txt + llms-full.txt endpoints.
 10. `scripts/check-links.mjs`.
 11. New Vercel project `socdocs`, deploy immediately.
-Seed with 3 sample pages (one code-fences, one mermaid, one images) to exercise the pipeline.
+    Seed with 3 sample pages (one code-fences, one mermaid, one images) to exercise the pipeline.
 
 **Phase 1 — Skeleton IA**: create the ~103 files above; wire `guides.ts`; remove Phase 0 samples.
 
@@ -163,7 +163,7 @@ Seed with 3 sample pages (one code-fences, one mermaid, one images) to exercise 
 2. User Guide getting-started/profile/property — seed from `personal-profile-help.ts` + old userguides prose (skim before archival); screenshot workflow starts here.
 3. Administrator Guide — seed `kyng-coordinator-help.ts` then `admin-help.ts`.
 4. Project Guide — needs owner-supplied history/grant text; lowest urgency.
-Definition of done per page: `status: complete` (prose finished and accurate), screenshots settled, check:links + check:status green. Prose and screenshots are tracked separately: the `screenshots` frontmatter field is `none` (page needs no captures — conceptual/technical/index pages), `pending` (captures needed, not yet taken), or `done` (captures embedded). A page is fully done when status is `complete` and screenshots is `done` or `none`; `complete`+`pending` is a valid interim state — finished prose is not demoted while the screenshot workflow catches up. `npm run check:status` reports the backlog and fails on inconsistencies.
+   Definition of done per page: `status: complete` (prose finished and accurate), screenshots settled, check:links + check:status green. Prose and screenshots are tracked separately: the `screenshots` frontmatter field is `none` (page needs no captures — conceptual/technical/index pages), `pending` (captures needed, not yet taken), or `done` (captures embedded). A page is fully done when status is `complete` and screenshots is `done` or `none`; `complete`+`pending` is a valid interim state — finished prose is not demoted while the screenshot workflow catches up. `npm run check:status` reports the backlog and fails on inconsistencies.
 
 **Phase 3 — Integration + decommission** (touches soc-dev):
 

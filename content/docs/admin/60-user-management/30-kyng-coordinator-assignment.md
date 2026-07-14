@@ -38,4 +38,3 @@ Assignments determine both route access and area visibility.
 - [Your Dashboard](/docs/admin/kyng-coordinators/your-dashboard)
 - [Roles and Access](/docs/admin/introduction/roles-and-access)
 - [Roles and Permissions](/docs/admin/site-administration/roles-and-permissions)
-

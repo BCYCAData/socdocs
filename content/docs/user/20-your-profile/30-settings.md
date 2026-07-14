@@ -31,4 +31,3 @@ Use this area when you need to update how your account is secured or configured.
 - [Sign In and Out](/docs/user/getting-started/sign-in-and-out)
 - [Reset Your Password](/docs/user/getting-started/reset-your-password)
 - [Privacy and Your Data](/docs/user/your-profile/privacy-and-your-data)
-

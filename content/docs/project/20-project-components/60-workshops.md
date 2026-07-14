@@ -37,4 +37,3 @@ Add verified schedule examples and outcomes before changing this page from draft
 - [Overview](/docs/project/project-components/overview)
 - [Community Hub Burrell Creek](/docs/project/project-components/community-hub-burrell-creek)
 - [Community Hub Mondrook](/docs/project/project-components/community-hub-mondrook)
-

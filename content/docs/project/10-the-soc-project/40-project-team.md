@@ -40,4 +40,3 @@ Once owner-approved team details are added, update this page from draft to compl
 - [History](/docs/project/the-soc-project/history)
 - [Grant 2021](/docs/project/the-soc-project/grant-2021)
 - [Grant 2022](/docs/project/the-soc-project/grant-2022)
-

@@ -31,4 +31,3 @@ Use this area to track what is happening and decide where to participate.
 - [Community Overview](/docs/user/your-community/community-overview)
 - [Workshops](/docs/user/your-community/workshops)
 - [Community Map](/docs/user/your-community/community-map)
-

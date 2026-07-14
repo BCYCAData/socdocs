@@ -11,7 +11,11 @@
 		data: () => Promise<Result>;
 	};
 
-	let { open, onOpen, onClose } = $props<{ open: boolean; onOpen: () => void; onClose: () => void }>();
+	let { open, onOpen, onClose } = $props<{
+		open: boolean;
+		onOpen: () => void;
+		onClose: () => void;
+	}>();
 
 	let query = $state('');
 	let results = $state<Result[]>([]);
@@ -27,7 +31,8 @@
 			const pagefind = await import(/* @vite-ignore */ pagefindPath);
 			searchFn = pagefind.search;
 		} catch {
-			errorMessage = 'Search index is unavailable in development until a production build is created.';
+			errorMessage =
+				'Search index is unavailable in development until a production build is created.';
 		}
 	}
 
@@ -85,7 +90,9 @@
 		onclick={onClose}
 		aria-label="Close search"
 	></button>
-	<div class="fixed inset-x-4 top-20 z-50 mx-auto max-w-2xl rounded-2xl border border-surface-200 bg-white p-4 shadow-xl dark:border-surface-700 dark:bg-surface-900">
+	<div
+		class="fixed inset-x-4 top-20 z-50 mx-auto max-w-2xl rounded-2xl border border-surface-200 bg-white p-4 shadow-xl dark:border-surface-700 dark:bg-surface-900"
+	>
 		<div class="mb-3 flex items-center gap-3">
 			<input
 				type="search"
@@ -94,11 +101,19 @@
 				placeholder="Search docs..."
 				class="w-full rounded-lg border border-surface-300 bg-transparent px-3 py-2 text-sm dark:border-surface-700"
 			/>
-			<button type="button" class="rounded border border-surface-300 px-3 py-2 text-sm dark:border-surface-700" onclick={onClose}>Close</button>
+			<button
+				type="button"
+				class="rounded border border-surface-300 px-3 py-2 text-sm dark:border-surface-700"
+				onclick={onClose}>Close</button
+			>
 		</div>
 
 		{#if errorMessage}
-			<p class="rounded border border-secondary-300 bg-secondary-100 px-3 py-2 text-sm dark:border-secondary-700 dark:bg-surface-800">{errorMessage}</p>
+			<p
+				class="rounded border border-secondary-300 bg-secondary-100 px-3 py-2 text-sm dark:border-secondary-700 dark:bg-surface-800"
+			>
+				{errorMessage}
+			</p>
 		{:else if loading}
 			<p class="text-sm opacity-70">Searching...</p>
 		{:else if query.trim() && results.length === 0}
@@ -107,7 +122,11 @@
 			<ul class="max-h-[55vh] space-y-2 overflow-auto">
 				{#each results as item}
 					<li>
-						<a href={item.url} class="block rounded-lg border border-surface-200 px-3 py-2 hover:border-primary-300 dark:border-surface-700" onclick={onClose}>
+						<a
+							href={item.url}
+							class="block rounded-lg border border-surface-200 px-3 py-2 hover:border-primary-300 dark:border-surface-700"
+							onclick={onClose}
+						>
 							<div class="text-sm font-semibold">{item.meta?.title ?? item.url}</div>
 							<div class="mt-1 text-sm opacity-75">{@html item.excerpt}</div>
 						</a>

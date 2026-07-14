@@ -37,4 +37,3 @@ It helps you view boundaries, address points, and community-relevant locations i
 - [Community Overview](/docs/user/your-community/community-overview)
 - [Information](/docs/user/your-community/information)
 - [My Map](/docs/user/your-property/my-map)
-

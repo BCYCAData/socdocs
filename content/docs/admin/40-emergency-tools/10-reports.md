@@ -30,4 +30,3 @@ Use reports when you need a structured snapshot for operational decision-making.
 
 - [Service Map](/docs/admin/emergency-tools/service-map)
 - [Community Map](/docs/admin/community-administration/community-map)
-

@@ -30,4 +30,3 @@ This supports targeted outreach and onboarding assistance.
 
 - [Your Dashboard](/docs/admin/kyng-coordinators/your-dashboard)
 - [Resident Admin](/docs/admin/kyng-coordinators/resident-admin)
-

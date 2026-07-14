@@ -45,11 +45,10 @@ After verification, SOC redirects you to onboarding so you can complete your ini
 - [Reset Your Password](/docs/user/getting-started/reset-your-password)
 - [The Onboarding Survey](/docs/user/getting-started/the-onboarding-survey)
 
-
 ```json
 {
-  "email": "resident@example.com",
-  "name": "SOC Resident"
+	"email": "resident@example.com",
+	"name": "SOC Resident"
 }
 ```
 

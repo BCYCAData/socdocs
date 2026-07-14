@@ -41,4 +41,3 @@ Feature editing is template-based, so you should select the correct layer type b
 - [Property Overview](/docs/user/your-property/property-overview)
 - [Assets](/docs/user/your-property/assets)
 - [Hazards](/docs/user/your-property/hazards)
-

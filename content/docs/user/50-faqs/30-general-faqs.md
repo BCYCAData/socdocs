@@ -41,4 +41,3 @@ Begin with Getting Started pages, complete onboarding, then review your profile 
 - [Profile Overview](/docs/user/your-profile/profile-overview)
 - [Property Overview](/docs/user/your-property/property-overview)
 - [Community Overview](/docs/user/your-community/community-overview)
-

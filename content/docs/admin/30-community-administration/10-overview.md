@@ -27,4 +27,3 @@ This section covers recurring publishing and maintenance workflows.
 - [Managing Information](/docs/admin/community-administration/managing-information)
 - [Community Map](/docs/admin/community-administration/community-map)
 - [Managing Workshops](/docs/admin/community-administration/managing-workshops)
-

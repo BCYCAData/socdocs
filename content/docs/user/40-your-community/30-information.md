@@ -31,4 +31,3 @@ Check this page to stay current on changes that affect your area.
 - [Community Overview](/docs/user/your-community/community-overview)
 - [Events](/docs/user/your-community/events)
 - [Property Overview](/docs/user/your-property/property-overview)
-

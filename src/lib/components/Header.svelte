@@ -3,12 +3,7 @@
 	import ThemeToggle from '$lib/components/ThemeToggle.svelte';
 	import type { GuideNav } from '$lib/types';
 
-	let {
-		guides,
-		activeGuide,
-		onOpenSearch,
-		onOpenMenu
-	} = $props<{
+	let { guides, activeGuide, onOpenSearch, onOpenMenu } = $props<{
 		guides: GuideNav[];
 		activeGuide?: string;
 		onOpenSearch: () => void;
@@ -18,7 +13,9 @@
 	const iconSet = Lucide as Record<string, any>;
 </script>
 
-<header class="sticky top-0 z-30 border-b border-surface-200/80 bg-white/90 backdrop-blur dark:border-surface-700 dark:bg-surface-900/80">
+<header
+	class="sticky top-0 z-30 border-b border-surface-200/80 bg-white/90 backdrop-blur dark:border-surface-700 dark:bg-surface-900/80"
+>
 	<div class="mx-auto flex max-w-7xl items-center gap-3 px-4 py-3">
 		{#if onOpenMenu}
 			<button

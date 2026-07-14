@@ -30,4 +30,3 @@ SOC uses these answers to configure your starting view and completion progress.
 
 - [Profile Overview](/docs/user/your-profile/profile-overview)
 - [About Me](/docs/user/your-profile/about-me)
-

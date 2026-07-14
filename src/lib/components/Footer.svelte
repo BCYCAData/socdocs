@@ -1,4 +1,6 @@
-<footer class="mt-auto border-t border-surface-200 bg-white/60 dark:border-surface-700 dark:bg-surface-900/60">
+<footer
+	class="mt-auto border-t border-surface-200 bg-white/60 dark:border-surface-700 dark:bg-surface-900/60"
+>
 	<div
 		class="mx-auto flex max-w-7xl flex-col items-center gap-4 px-4 py-6 sm:flex-row sm:justify-between"
 	>

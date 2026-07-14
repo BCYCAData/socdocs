@@ -31,4 +31,3 @@ Boundary updates should follow controlled edit-session workflows with validation
 
 - [Spatial Data](/docs/admin/site-administration/spatial-data)
 - [Roles and Permissions](/docs/admin/site-administration/roles-and-permissions)
-

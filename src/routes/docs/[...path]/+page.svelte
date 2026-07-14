@@ -20,15 +20,27 @@
 	onOpenMenu={() => (menuOpen = true)}
 />
 
-<MobileDrawer open={menuOpen} guide={data.activeGuide} currentUrl={data.page.url} onClose={() => (menuOpen = false)} />
+<MobileDrawer
+	open={menuOpen}
+	guide={data.activeGuide}
+	currentUrl={data.page.url}
+	onClose={() => (menuOpen = false)}
+/>
 
 <main class="mx-auto grid max-w-7xl grid-cols-1 gap-6 px-4 py-8 lg:grid-cols-[16rem_1fr_14rem]">
 	<Sidebar guide={data.activeGuide} currentUrl={data.page.url} />
 
 	<!-- Stub pages get no data-pagefind-body, which excludes them from the search index -->
-	<article data-pagefind-body={data.page.status === 'stub' ? undefined : true} data-pagefind-meta={`guide:${data.activeGuide.slug}`}>
-		<header class="mb-6 rounded-2xl border border-surface-200 bg-white/70 p-6 dark:border-surface-700 dark:bg-surface-900/60">
-			<p class="text-xs uppercase tracking-wide text-surface-500 dark:text-surface-300">{data.activeGuide.title}</p>
+	<article
+		data-pagefind-body={data.page.status === 'stub' ? undefined : true}
+		data-pagefind-meta={`guide:${data.activeGuide.slug}`}
+	>
+		<header
+			class="mb-6 rounded-2xl border border-surface-200 bg-white/70 p-6 dark:border-surface-700 dark:bg-surface-900/60"
+		>
+			<p class="text-xs uppercase tracking-wide text-surface-500 dark:text-surface-300">
+				{data.activeGuide.title}
+			</p>
 			<h1 class="mt-2 text-3xl font-semibold">{data.page.title}</h1>
 			<p class="mt-3 text-surface-700 dark:text-surface-200">{data.page.description}</p>
 		</header>
@@ -60,4 +72,8 @@
 	<OnThisPage entries={data.page.toc ?? []} />
 </main>
 
-<SearchModal open={searchOpen} onOpen={() => (searchOpen = true)} onClose={() => (searchOpen = false)} />
+<SearchModal
+	open={searchOpen}
+	onOpen={() => (searchOpen = true)}
+	onClose={() => (searchOpen = false)}
+/>

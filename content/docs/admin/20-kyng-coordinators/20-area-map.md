@@ -31,4 +31,3 @@ It supports quick review of area context, address points, and property-related l
 
 - [Your Dashboard](/docs/admin/kyng-coordinators/your-dashboard)
 - [Unregistered Addresses](/docs/admin/kyng-coordinators/unregistered-addresses)
-

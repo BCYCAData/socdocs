@@ -1,7 +1,15 @@
 import matter from 'gray-matter';
 import { guideMap, guides } from '$lib/guides';
 import { renderMarkdown } from '$lib/server/content/markdown';
-import type { DocLink, DocPage, DocStatus, Frontmatter, GuideNav, GuideSlug, NavSection } from '$lib/types';
+import type {
+	DocLink,
+	DocPage,
+	DocStatus,
+	Frontmatter,
+	GuideNav,
+	GuideSlug,
+	NavSection
+} from '$lib/types';
 
 type RawDoc = {
 	guide: GuideSlug;
@@ -41,7 +49,10 @@ function toUrlSegment(part: string): string {
 	return stripped.toLowerCase();
 }
 
-function parseFrontmatter(raw: string, path: string): { frontmatter: Frontmatter; body: string; status: DocStatus } {
+function parseFrontmatter(
+	raw: string,
+	path: string
+): { frontmatter: Frontmatter; body: string; status: DocStatus } {
 	const parsed = matter(raw);
 	const frontmatter = parsed.data as Frontmatter;
 
@@ -131,9 +142,7 @@ function loadRawDocs(): RawDoc[] {
 	}
 
 	const sectionKeys = new Set(
-		docs
-			.filter((doc) => doc.sectionDir)
-			.map((doc) => `${doc.guide}/${doc.sectionDir}`)
+		docs.filter((doc) => doc.sectionDir).map((doc) => `${doc.guide}/${doc.sectionDir}`)
 	);
 
 	for (const key of sectionKeys) {
@@ -184,8 +193,8 @@ async function buildCache(): Promise<ContentCache> {
 		}
 
 		const sectionDocs = guideDocs.filter((doc) => doc.sectionDir);
-		const sectionDirs = [...new Set(sectionDocs.map((doc) => doc.sectionDir as string))].sort((a, b) =>
-			compareOrder([getOrder(a)], [getOrder(b)])
+		const sectionDirs = [...new Set(sectionDocs.map((doc) => doc.sectionDir as string))].sort(
+			(a, b) => compareOrder([getOrder(a)], [getOrder(b)])
 		);
 
 		const sections: NavSection[] = [];

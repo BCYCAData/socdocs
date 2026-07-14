@@ -30,4 +30,3 @@ Reset links are single-use and tied to a recovery session.
 ## Related pages
 
 - [Sign In and Out](/docs/user/getting-started/sign-in-and-out)
-

@@ -33,4 +33,3 @@ Document how KYNG participation is structured, including:
 - [Overview](/docs/project/project-components/overview)
 - [Digital Mapping](/docs/project/project-components/digital-mapping)
 - [History](/docs/project/the-soc-project/history)
-
